@@ -340,8 +340,13 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   padding-right: 6px;
   padding-bottom: 16px;
+}
+
+.registration-scroll button {
+  touch-action: manipulation;
 }
 
 .registration-scroll--grid {

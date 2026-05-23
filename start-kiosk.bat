@@ -13,6 +13,12 @@ echo.
 
 set "KIOSK=%~1"
 if not defined KIOSK (
+  if exist "%~dp0kiosk-number.txt" (
+    set /p "KIOSK=" < "%~dp0kiosk-number.txt"
+    set "KIOSK=!KIOSK: =!"
+  )
+)
+if not defined KIOSK (
   set /p "KIOSK=Kiosk number (1-8): "
 )
 

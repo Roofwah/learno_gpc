@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react'
 import { loadLocations, getStates, getSuburbs, getStores } from '@/lib/locations'
 import type { Store, StateGroup } from '@/lib/locations'
 import {
@@ -21,7 +21,30 @@ interface Props {
 
 type Step = 'state' | 'suburb' | 'store' | 'corp-location'
 
+const TAP_SLOP_PX = 14
+
+function withinTapSlop(start: { x: number; y: number } | null, e: ReactPointerEvent): boolean {
+  if (!start) return false
+  const dx = e.clientX - start.x
+  const dy = e.clientY - start.y
+  return dx * dx + dy * dy <= TAP_SLOP_PX * TAP_SLOP_PX
+}
+
 export default function RegistrationScreen({ playerName, onComplete, onBack }: Props) {
+  const tapStartRef = useRef<{ x: number; y: number } | null>(null)
+
+  const scrollSafeTap = <T,>(onPick: (value: T) => void, value: T) => ({
+    onPointerDown: (e: ReactPointerEvent) => {
+      tapStartRef.current = { x: e.clientX, y: e.clientY }
+    },
+    onPointerUp: (e: ReactPointerEvent) => {
+      if (withinTapSlop(tapStartRef.current, e)) onPick(value)
+      tapStartRef.current = null
+    },
+    onPointerCancel: () => {
+      tapStartRef.current = null
+    },
+  })
   const [step, setStep] = useState<Step>('state')
   const [corporateRole, setCorporateRole] = useState<CorporateRole | null>(null)
   const [selectedState, setSelectedState] = useState('')
@@ -153,7 +176,7 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
                 <button
                   key={s.code}
                   type="button"
-                  onPointerDown={() => handleStatePick(s.code)}
+                  {...scrollSafeTap(handleStatePick, s.code)}
                   className="
                     flex flex-col items-start px-7 py-6 rounded-2xl text-left
                     bg-white/5 border border-white/10
@@ -246,7 +269,7 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
                   <button
                     key={sb.suburb}
                     type="button"
-                    onPointerDown={() => handleSuburbPick(sb.suburb)}
+                    {...scrollSafeTap(handleSuburbPick, sb.suburb)}
                     className="
                       flex items-center justify-between px-7 py-6 rounded-2xl text-left
                       bg-white/5 border border-white/10
@@ -279,7 +302,7 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
                 <button
                   key={store.id}
                   type="button"
-                  onPointerDown={() => handleStorePick(store)}
+                  {...scrollSafeTap(handleStorePick, store)}
                   className="
                     flex items-center gap-6 px-7 py-7 rounded-2xl text-left
                     bg-white/5 border border-white/10

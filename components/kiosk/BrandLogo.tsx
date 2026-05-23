@@ -16,7 +16,7 @@ export const BRAND_ACCENT: Record<string, string> = {
 
 const BRAND_LOGOS: Partial<Record<string, { src: string; alt: string }>> = {
   REPCO: { src: '/Repco_logo.svg', alt: 'Repco' },
-  NAPA: { src: '/napa_logo.svg', alt: 'NAPA' },
+  NAPA: { src: '/NAPA_logo.svg', alt: 'NAPA' },
   GPC: { src: '/GPC_logo.svg', alt: 'GPC' },
 }
 

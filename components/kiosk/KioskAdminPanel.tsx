@@ -61,6 +61,14 @@ export default function KioskAdminPanel({ offlineMode, onOfflineModeChange }: Pr
               Settings
             </h2>
 
+            <button
+              type="button"
+              onClick={() => window.location.reload()}
+              className="w-full mt-6 py-3 rounded-lg bg-green-700 font-bold"
+            >
+              Refresh screen
+            </button>
+
             <label className="block mt-6 text-xs text-white/40 uppercase tracking-wide">PIN</label>
             <PinEntryField
               value={pin}
