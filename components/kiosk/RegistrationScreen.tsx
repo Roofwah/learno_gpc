@@ -17,6 +17,10 @@ interface Props {
   playerName: string
   onComplete: (participant: Participant) => void
   onBack: () => void
+  /** Re-open registration at suburb or store (e.g. after wrong store on waiting screen). */
+  resumeAt?: 'suburb' | 'store'
+  resumeState?: string
+  resumeSuburb?: string
 }
 
 type Step = 'state' | 'suburb' | 'store' | 'corp-location'
@@ -30,7 +34,14 @@ function withinTapSlop(start: { x: number; y: number } | null, e: ReactPointerEv
   return dx * dx + dy * dy <= TAP_SLOP_PX * TAP_SLOP_PX
 }
 
-export default function RegistrationScreen({ playerName, onComplete, onBack }: Props) {
+export default function RegistrationScreen({
+  playerName,
+  onComplete,
+  onBack,
+  resumeAt,
+  resumeState,
+  resumeSuburb,
+}: Props) {
   const tapStartRef = useRef<{ x: number; y: number } | null>(null)
 
   const scrollSafeTap = <T,>(onPick: (value: T) => void, value: T) => ({
@@ -52,6 +63,12 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
   const [locations, setLocations] = useState<StateGroup[]>([])
   const [loadingStores, setLoadingStores] = useState(true)
   const [storesError, setStoresError] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (resumeState) setSelectedState(resumeState)
+    if (resumeSuburb) setSelectedSuburb(resumeSuburb)
+    if (resumeAt) setStep(resumeAt)
+  }, [resumeAt, resumeState, resumeSuburb])
 
   useEffect(() => {
     let cancelled = false
@@ -83,12 +100,12 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
 
   const handleSuburbPick = (suburb: string) => {
     setSelectedSuburb(suburb)
-    const list = getStores(selectedState, suburb)
-    if (list.length === 1) {
-      completeWithStore(list[0], selectedState, suburb)
-      return
-    }
     setStep('store')
+  }
+
+  const goToSuburbStep = () => {
+    setSelectedSuburb('')
+    setStep('suburb')
   }
 
   const completeWithStore = (store: Store, state: string, suburb: string) => {
@@ -289,14 +306,15 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
         )}
 
         {step === 'store' && (
-          <div className="registration-step animate-fade-in">
-            <button type="button" onPointerDown={() => setStep('suburb')} className="registration-back-link">
+          <div className="registration-step animate-fade-in flex flex-col min-h-0 flex-1">
+            <button type="button" onPointerDown={goToSuburbStep} className="registration-back-link shrink-0">
               ← Change suburb
             </button>
             <p className="registration-intro">
               Hi <span className="registration-intro-name">{playerName}</span>, please select your store
             </p>
-            <p className="registration-intro-sub">{selectedSuburb}</p>
+            <p className="registration-intro-sub shrink-0">{selectedSuburb}</p>
+            <div className="registration-scroll-wrap flex-1 min-h-0">
             <div className="registration-scroll flex flex-col gap-4">
               {stores.map((store) => (
                 <button
@@ -319,6 +337,7 @@ export default function RegistrationScreen({ playerName, onComplete, onBack }: P
                   </div>
                 </button>
               ))}
+            </div>
             </div>
           </div>
         )}

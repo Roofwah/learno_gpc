@@ -7,6 +7,7 @@ interface Props {
   sessionId?: string | null
   offlineMode?: boolean
   onBeginPresentation?: () => void
+  onChangeStore?: () => void
 }
 
 export default function WaitingScreen({
@@ -14,6 +15,7 @@ export default function WaitingScreen({
   sessionId,
   offlineMode = false,
   onBeginPresentation,
+  onChangeStore,
 }: Props) {
   const color = BRAND_ACCENT[participant.brand] ?? '#555'
 
@@ -78,6 +80,15 @@ export default function WaitingScreen({
       </div>
 
       <div className="flex flex-col items-center gap-4 mb-8">
+        {onChangeStore && (
+          <button
+            type="button"
+            onPointerDown={onChangeStore}
+            className="px-12 py-5 rounded-2xl text-xl font-bold text-white/80 bg-white/10 border border-white/20 active:scale-95"
+          >
+            Change store
+          </button>
+        )}
         {offlineMode && onBeginPresentation ? (
           <button
             type="button"

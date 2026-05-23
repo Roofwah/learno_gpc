@@ -84,6 +84,11 @@ export default function KioskPage() {
   const [hubLinked, setHubLinked] = useState(false)
   const [offlineMode, setOfflineModeState] = useState(false)
   const [offlineRoundEntry, setOfflineRoundEntry] = useState<ParticipantLeaderboardEntry | null>(null)
+  const [registrationResume, setRegistrationResume] = useState<{
+    step: 'suburb' | 'store'
+    state: string
+    suburb: string
+  } | null>(null)
   const kioskIdRef = useRef<string>('')
 
   const handleOfflineModeChange = useCallback((enabled: boolean) => {
@@ -340,6 +345,7 @@ export default function KioskPage() {
   }, [screen, participant, currentSlide, leaderboardMode, showSessionThankYou, emitStateUpdate])
 
   const handleRegistrationComplete = (p: Participant) => {
+    setRegistrationResume(null)
     setParticipant(p)
     setCurrentSlide(0)
     setQuizQuestions(selectQuestions())
@@ -348,6 +354,18 @@ export default function KioskPage() {
     setScreen('waiting')
     emitStateUpdate('waiting', { participant: p })
   }
+
+  const handleChangeStore = useCallback(() => {
+    if (!participant) return
+    setRegistrationResume({
+      step: 'suburb',
+      state: participant.state,
+      suburb: participant.suburb,
+    })
+    setParticipant(null)
+    setScreen('registration')
+    emitStateUpdate('registration', { participant: null })
+  }, [participant, emitStateUpdate])
 
   const handleBeginOfflinePresentation = useCallback(() => {
     setCurrentSlide(0)
@@ -500,7 +518,11 @@ export default function KioskPage() {
           <RegistrationScreen
             playerName={playerName}
             onComplete={handleRegistrationComplete}
+            resumeAt={registrationResume?.step}
+            resumeState={registrationResume?.state}
+            resumeSuburb={registrationResume?.suburb}
             onBack={() => {
+              setRegistrationResume(null)
               setScreen('name')
               emitStateUpdate('name')
             }}
@@ -513,6 +535,7 @@ export default function KioskPage() {
             sessionId={effectiveSessionId}
             offlineMode={offlineMode}
             onBeginPresentation={offlineMode ? handleBeginOfflinePresentation : undefined}
+            onChangeStore={handleChangeStore}
           />
         )}
 
