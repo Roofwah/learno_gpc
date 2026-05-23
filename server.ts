@@ -84,6 +84,16 @@ app.prepare().then(() => {
     res.json(buildSessionStatePayload())
   })
 
+  expressApp.post('/api/master-refresh', (_req, res) => {
+    const kiosks = Array.from(kioskRegistry.values())
+    io.to('presenters').emit('kiosk_status_update', kiosks)
+    io.to('presenters').emit('session_state_update', buildSessionStatePayload())
+    res.json({
+      ok: true,
+      online: kiosks.filter((k) => k.connected).length,
+    })
+  })
+
   expressApp.post('/api/reset', async (req, res) => {
     const pin = typeof req.body?.pin === 'string' ? req.body.pin : ''
     if (!verifyCampaignResetPin(pin)) {
