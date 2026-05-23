@@ -4,12 +4,24 @@
 
 ## Start the hub (this Mac)
 
+**Novice / no Terminal:** double-click **`Start Mac Hub.command`** on the Desktop.
+
+First time on this Mac, run once in Terminal:
+
+```bash
+cd /path/to/learno_gpc
+./install-mac-desktop.command
+./set-hub-ip.sh
+```
+
+Or from Terminal:
+
 ```bash
 cd /path/to/learno_gpc
 ./start-mac.sh
 ```
 
-Leave that terminal open. You should see:
+Leave the hub window open. You should see:
 
 ```text
 🚀 learno_gpc running (listening on 0.0.0.0:3001)
@@ -42,6 +54,14 @@ Normal operation: kiosks sync to this Mac over Wi‑Fi (`public/hub-socket-url.t
 2. `hub-address.txt` = one line, **Mac hub IP** from `set-hub-ip.sh`
 3. `start-kiosk.bat` or desktop shortcut — starts local media server + opens `http://MAC_IP:3001/?kiosk=N`
 4. `allow-firewall-port-3001.bat` on **kiosks** only if needed for local `127.0.0.1:3001` — **not** a substitute for the Mac hub
+
+## Hub died and event lead is away
+
+1. Mac: double-click **Start Mac Hub** on the Desktop (leave the window open).
+2. Mac browser: **http://localhost:3001/presenter?compact=1** → tap **Refresh master**.
+3. Each kiosk: settings cog → **Refresh screen**.
+
+Print **`EMERGENCY-NO-LEAD.txt`** and keep it by the Mac.
 
 ## Mac firewall
 

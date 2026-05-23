@@ -42,7 +42,9 @@ export default function RefreshMasterButton({ compact, className }: Props) {
         {busy ? 'Refreshing…' : 'Refresh master'}
       </button>
       <p className={`text-white/35 ${compact ? 'text-xs' : 'text-sm text-right max-w-xs'}`}>
-        Use if kiosks show offline. No PIN. If this does not help, restart the Mac hub app.
+        Kiosks offline? Tap here first. If Master will not load, double-click{' '}
+        <strong className="text-white/55">Start Mac Hub</strong> on the Mac Desktop (see
+        EMERGENCY-NO-LEAD.txt).
       </p>
     </div>
   )

@@ -1,0 +1,28 @@
+LEARNO GPC — HUB DIED, EVENT LEAD NOT HERE
+============================================
+
+ON THE MAC (hub computer)
+-------------------------
+1. Double-click:  Start Mac Hub   (on the Desktop)
+2. A black window opens — LEAVE IT OPEN
+3. Wait ~30 seconds — Master screen opens in the browser
+4. If nothing opens, click this link in Safari/Chrome:
+
+   http://localhost:3001/presenter?compact=1
+
+5. On the Master screen, tap the green button:
+
+   Refresh master
+
+ON EACH KIOSK (Windows)
+-----------------------
+1. Tap the settings cog (staff button on screen)
+2. Tap:  Refresh screen
+
+Still offline on Master?
+------------------------
+- Mac must stay on power and Wi-Fi
+- Run set-hub-ip.bat on kiosks with the Mac’s current Wi-Fi IP
+  (on Mac Terminal: ipconfig getifaddr en0)
+
+Do NOT close the black “Start Mac Hub” window on the Mac.
