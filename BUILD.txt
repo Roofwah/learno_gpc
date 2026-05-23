@@ -1,0 +1,5 @@
+learno GPC deploy package
+Built: 2026-05-23 12:06:52 AEST
+Zip file: im-20260523-120652.zip
+Mac hub: run ./set-hub-ip.sh then ./start-mac.sh
+Windows kiosk: delete old folder, extract this zip, install-windows.bat, create-kiosk-desktop-shortcut.bat

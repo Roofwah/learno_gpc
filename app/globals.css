@@ -1,0 +1,606 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --repco-red: #E4002B;
+  --napa-blue: #003087;
+  --napa-yellow: #FFD700;
+  --gpc-bg: #0D0D0D;
+  --gpc-surface: #161616;
+  --gpc-border: #2A2A2A;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: var(--gpc-bg);
+  color: #fff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Disable text selection on kiosks */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Portrait kiosk canvas — 1080px wide × 1920px tall */
+.kiosk-canvas {
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: var(--gpc-bg);
+}
+
+/* Brand gradient overlay */
+.brand-gradient {
+  background: linear-gradient(180deg, #0D0D0D 0%, #1a0000 50%, #0D0D0D 100%);
+}
+
+/* Glowing border utility */
+.glow-red {
+  box-shadow: 0 0 24px rgba(228, 0, 43, 0.5), 0 0 48px rgba(228, 0, 43, 0.2);
+}
+.glow-blue {
+  box-shadow: 0 0 24px rgba(0, 48, 135, 0.5), 0 0 48px rgba(0, 48, 135, 0.2);
+}
+
+/* Keyboard key */
+.kb-key {
+  @apply flex items-center justify-center rounded-xl text-white font-semibold cursor-pointer
+    transition-all duration-100 active:scale-95 select-none;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  touch-action: manipulation;
+}
+.kb-key:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.25);
+}
+.kb-key:active {
+  background: rgba(228, 0, 43, 0.4);
+}
+
+/* Score bar animation */
+.score-bar {
+  transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Leaderboard row */
+.lb-row {
+  @apply flex items-center gap-4 px-6 py-4 rounded-2xl;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.lb-row.lb-rank-1 { background: rgba(255, 215, 0, 0.08); border-color: rgba(255,215,0,0.3); }
+.lb-row.lb-rank-2 { background: rgba(192, 192, 192, 0.08); border-color: rgba(192,192,192,0.25); }
+.lb-row.lb-rank-3 { background: rgba(205, 127, 50, 0.08); border-color: rgba(205,127,50,0.25); }
+
+/* Timer ring */
+@keyframes timerDrain {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: 283; }
+}
+.timer-ring-arc {
+  stroke-dasharray: 283;
+  transform-origin: center;
+  transform: rotate(-90deg);
+}
+
+/* Slide transitions */
+.slide-enter {
+  animation: slideUp 0.4s ease-out both;
+}
+
+/* Pulse for waiting state */
+@keyframes waitPulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.wait-pulse {
+  animation: waitPulse 2s ease-in-out infinite;
+}
+
+/* ── Background video ──────────────────────────────────────────────────────── */
+.bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.55;
+}
+
+/* ── Overlay frame cycling (4 frames, 4 s loop) ────────────────────────────── */
+.overlay-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.overlay-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+}
+
+.frame1 { animation: fade1 4s infinite; }
+.frame2 { animation: fade2 4s infinite; }
+.frame3 { animation: fade3 4s infinite; }
+.frame4 { animation: fade4 4s infinite; }
+
+@keyframes fade1 {
+  0%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; }
+  75%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade2 {
+  0%   { opacity: 0; }
+  20%  { opacity: 0; }
+  25%  { opacity: 1; }
+  45%  { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fade3 {
+  0%   { opacity: 0; }
+  45%  { opacity: 0; }
+  50%  { opacity: 1; }
+  70%  { opacity: 1; }
+  75%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fade4 {
+  0%   { opacity: 0; }
+  70%  { opacity: 0; }
+  75%  { opacity: 1; }
+  95%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Scrollbar — dark minimal */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 2px; }
+
+/* ── Name entry (learno agreecard step) ───────────────────────────────────── */
+.name-entry-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+}
+
+.name-entry-card-art {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% - 120px));
+  z-index: 1;
+  max-width: min(920px, 88vw);
+  max-height: min(72vh, 780px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.name-entry-foreground {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.name-entry-back {
+  align-self: flex-start;
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.45);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.name-entry-title {
+  color: #00582a;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 305px 0 24px;
+  letter-spacing: 0.02em;
+}
+
+.name-entry-display {
+  width: 100%;
+  padding: 22px 28px;
+  border: 3px solid #e0e0e0;
+  border-radius: 15px;
+  background: #fff;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.name-entry-display-value {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.name-entry-display-placeholder {
+  font-size: 1.6rem;
+  color: #999;
+}
+
+.name-entry-keyboard {
+  margin-bottom: 28px;
+}
+
+.name-entry-continue {
+  align-self: center;
+  padding: 16px 64px;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #009343;
+  color: #fff;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.name-entry-continue:hover:not(:disabled) {
+  background: #007a38;
+  transform: scale(1.03);
+}
+
+.name-entry-continue:disabled {
+  background: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
+
+/* Registration — region / suburb / store */
+.registration-content {
+  padding-top: 300px;
+  overflow: hidden;
+}
+
+.registration-step {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  min-height: 0;
+}
+
+.registration-back-link {
+  align-self: flex-start;
+  font-size: 1.25rem;
+  color: #e4002b;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.registration-intro {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.65);
+  text-align: left;
+}
+
+.registration-intro-name {
+  color: #fff;
+  font-weight: 800;
+}
+
+.registration-intro-sub {
+  margin: -8px 0 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.registration-scroll {
+  flex: 1;
+  min-height: 0;
+  max-height: 1000px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 6px;
+  padding-bottom: 16px;
+}
+
+.registration-scroll--grid {
+  padding-top: 4px;
+}
+
+/* Hidden preload — same element used when master starts video */
+.kiosk-video-preload {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  z-index: -1;
+}
+
+/* Pre-quiz video — full width, overlay from KioskShell (z-50) sits on top */
+.video-screen-portrait {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  overflow: hidden;
+}
+
+.video-screen-portrait__player {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.video-screen-portrait__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 20px 32px 48px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  pointer-events: none;
+}
+
+.video-screen-portrait__caption span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Correct / incorrect message — fixed offset below last answer option */
+.quiz-feedback-banner {
+  margin-top: 120px;
+  flex-shrink: 0;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.quiz-top-bar {
+  margin-top: 200px;
+}
+
+/* Brand logo pill — dark glass + accent border (REPCO / NAPA) */
+.brand-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.58);
+  border: 2px solid var(--brand-accent, #e4002b);
+  border-radius: 1rem;
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.55),
+    0 0 28px color-mix(in srgb, var(--brand-accent) 40%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.brand-pill--sm {
+  padding: 0.5rem 0.65rem;
+  min-width: 5rem;
+  min-height: 5rem;
+  border-radius: 0.875rem;
+}
+
+.brand-pill--md {
+  padding: 0.85rem 1.75rem;
+  min-height: 4.25rem;
+}
+
+.brand-pill--lg {
+  padding: 1rem 2.25rem;
+  min-height: 4.75rem;
+  border-radius: 1.25rem;
+}
+
+/* Staff-only: invisible top-left reset (88×88px touch target) */
+.kiosk-back-to-start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  width: 88px;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  opacity: 0;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kiosk-back-to-start:active {
+  opacity: 0.15;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Above frame overlay (z-50) — staff admin + modal */
+.kiosk-staff-controls {
+  position: absolute;
+  inset: 0;
+  z-index: 80;
+  pointer-events: none;
+}
+
+.kiosk-staff-controls .kiosk-admin-btn {
+  pointer-events: auto;
+}
+
+/* Offline session LB — Castrol EDGE logo top-left, staff-only complete (looks unchanged) */
+.kiosk-lb-staff-complete {
+  display: block;
+  margin: 0 0 0 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: default;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kiosk-lb-staff-complete:active {
+  opacity: 0.85;
+}
+
+/* Staff: bottom-right admin — learno MinimizeButton cog */
+.kiosk-admin-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #666666 0%, #333333 100%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kiosk-admin-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #555555 0%, #222222 100%);
+}
+
+.kiosk-admin-btn__icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.kiosk-admin-btn__icon::before {
+  content: '⚙';
+  font-size: 18px;
+  color: white;
+  line-height: 1;
+}
+
+/* Staff-only: invisible bottom-right debug — slides → video (hub mode) */
+.kiosk-debug-advance {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 70;
+  width: 88px;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  opacity: 0;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kiosk-debug-advance:active {
+  opacity: 0.15;
+  background: rgba(139, 92, 246, 0.25);
+}
+
+.registration-scroll-wrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.registration-scroll-hint {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 4px 40px 8px 0;
+  padding: 0 4px;
+  pointer-events: none;
+}
+
+.registration-scroll-hint-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.registration-scroll-hint-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #e4002b;
+  animation: registration-scroll-hint-bounce 1.4s ease-in-out infinite;
+}
+
+@keyframes registration-scroll-hint-bounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+}

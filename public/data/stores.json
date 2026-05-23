@@ -1,0 +1,4882 @@
+{
+  "regions": [
+    {
+      "state": "New South Wales",
+      "code": "NSW",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "ALBURY",
+          "stores": [
+            {
+              "id": "REP-NSW-ALBURY",
+              "name": "REPCO ALBURY",
+              "brand": "REPCO",
+              "suburb": "ALBURY",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-ALBURY",
+              "name": "NAPA ALBURY",
+              "brand": "NAPA",
+              "suburb": "ALBURY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ARMIDALE",
+          "stores": [
+            {
+              "id": "REP-NSW-ARMIDALE",
+              "name": "REPCO ARMIDALE",
+              "brand": "REPCO",
+              "suburb": "ARMIDALE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "AUBURN",
+          "stores": [
+            {
+              "id": "NAP-NSW-AUBURN",
+              "name": "NAPA AUBURN",
+              "brand": "NAPA",
+              "suburb": "AUBURN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BALLINA",
+          "stores": [
+            {
+              "id": "REP-NSW-BALLINA",
+              "name": "REPCO BALLINA",
+              "brand": "REPCO",
+              "suburb": "BALLINA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BANKSTOWN",
+          "stores": [
+            {
+              "id": "REP-NSW-BANKSTOWN",
+              "name": "REPCO BANKSTOWN",
+              "brand": "REPCO",
+              "suburb": "BANKSTOWN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BATEMANS BAY",
+          "stores": [
+            {
+              "id": "REP-NSW-BATEMANS_BAY",
+              "name": "REPCO BATEMANS BAY",
+              "brand": "REPCO",
+              "suburb": "BATEMANS BAY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BEGA",
+          "stores": [
+            {
+              "id": "REP-NSW-BEGA",
+              "name": "REPCO BEGA",
+              "brand": "REPCO",
+              "suburb": "BEGA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BERESFIELD",
+          "stores": [
+            {
+              "id": "NAP-NSW-BERESFIELD",
+              "name": "NAPA BERESFIELD",
+              "brand": "NAPA",
+              "suburb": "BERESFIELD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BLACKTOWN",
+          "stores": [
+            {
+              "id": "REP-NSW-BLACKTOWN",
+              "name": "REPCO BLACKTOWN",
+              "brand": "REPCO",
+              "suburb": "BLACKTOWN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BROKEN HILL",
+          "stores": [
+            {
+              "id": "REP-NSW-BROKEN_HILL",
+              "name": "REPCO BROKEN HILL",
+              "brand": "REPCO",
+              "suburb": "BROKEN HILL",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BROOKVALE",
+          "stores": [
+            {
+              "id": "REP-NSW-BROOKVALE",
+              "name": "REPCO BROOKVALE",
+              "brand": "REPCO",
+              "suburb": "BROOKVALE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CAMPBELLTOWN",
+          "stores": [
+            {
+              "id": "REP-NSW-CAMPBELLTOWN",
+              "name": "REPCO CAMPBELLTOWN",
+              "brand": "REPCO",
+              "suburb": "CAMPBELLTOWN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CAMPERDOWN",
+          "stores": [
+            {
+              "id": "REP-NSW-CAMPERDOWN",
+              "name": "REPCO CAMPERDOWN",
+              "brand": "REPCO",
+              "suburb": "CAMPERDOWN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CASINO",
+          "stores": [
+            {
+              "id": "REP-NSW-CASINO",
+              "name": "REPCO CASINO",
+              "brand": "REPCO",
+              "suburb": "CASINO",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CASTLE HILL",
+          "stores": [
+            {
+              "id": "REP-NSW-CASTLE_HILL",
+              "name": "REPCO CASTLE HILL",
+              "brand": "REPCO",
+              "suburb": "CASTLE HILL",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CESSNOCK",
+          "stores": [
+            {
+              "id": "REP-NSW-CESSNOCK",
+              "name": "REPCO CESSNOCK",
+              "brand": "REPCO",
+              "suburb": "CESSNOCK",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CHATSWOOD",
+          "stores": [
+            {
+              "id": "REP-NSW-CHATSWOOD",
+              "name": "REPCO CHATSWOOD",
+              "brand": "REPCO",
+              "suburb": "CHATSWOOD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COFFS HARBOUR",
+          "stores": [
+            {
+              "id": "REP-NSW-COFFS_HARBOUR",
+              "name": "REPCO COFFS HARBOUR",
+              "brand": "REPCO",
+              "suburb": "COFFS HARBOUR",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-COFFS_HARBOUR",
+              "name": "NAPA COFFS HARBOUR",
+              "brand": "NAPA",
+              "suburb": "COFFS HARBOUR",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COOMA",
+          "stores": [
+            {
+              "id": "REP-NSW-COOMA",
+              "name": "REPCO COOMA",
+              "brand": "REPCO",
+              "suburb": "COOMA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COOTAMUNDRA",
+          "stores": [
+            {
+              "id": "REP-NSW-COOTAMUNDRA",
+              "name": "REPCO COOTAMUNDRA",
+              "brand": "REPCO",
+              "suburb": "COOTAMUNDRA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COWRA",
+          "stores": [
+            {
+              "id": "REP-NSW-COWRA",
+              "name": "REPCO COWRA",
+              "brand": "REPCO",
+              "suburb": "COWRA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CROYDON",
+          "stores": [
+            {
+              "id": "REP-NSW-CROYDON",
+              "name": "REPCO CROYDON",
+              "brand": "REPCO",
+              "suburb": "CROYDON",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DENILIQUIN",
+          "stores": [
+            {
+              "id": "REP-NSW-DENILIQUIN",
+              "name": "REPCO DENILIQUIN",
+              "brand": "REPCO",
+              "suburb": "DENILIQUIN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DUBBO",
+          "stores": [
+            {
+              "id": "REP-NSW-DUBBO",
+              "name": "REPCO DUBBO",
+              "brand": "REPCO",
+              "suburb": "DUBBO",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-DUBBO",
+              "name": "NAPA DUBBO",
+              "brand": "NAPA",
+              "suburb": "DUBBO",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DURAL",
+          "stores": [
+            {
+              "id": "REP-NSW-DURAL",
+              "name": "REPCO DURAL",
+              "brand": "REPCO",
+              "suburb": "DURAL",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "EAST WAGGA WAGGA",
+          "stores": [
+            {
+              "id": "REP-NSW-EAST_WAGGA_WAGGA",
+              "name": "REPCO WAGGA WAGGA",
+              "brand": "REPCO",
+              "suburb": "EAST WAGGA WAGGA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ERINA",
+          "stores": [
+            {
+              "id": "REP-NSW-ERINA",
+              "name": "REPCO ERINA",
+              "brand": "REPCO",
+              "suburb": "ERINA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FORBES",
+          "stores": [
+            {
+              "id": "REP-NSW-FORBES",
+              "name": "REPCO FORBES",
+              "brand": "REPCO",
+              "suburb": "FORBES",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FORSTER",
+          "stores": [
+            {
+              "id": "REP-NSW-FORSTER",
+              "name": "REPCO FORSTER",
+              "brand": "REPCO",
+              "suburb": "FORSTER",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GATESHEAD",
+          "stores": [
+            {
+              "id": "REP-NSW-GATESHEAD",
+              "name": "REPCO GATESHEAD",
+              "brand": "REPCO",
+              "suburb": "GATESHEAD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GLADESVILLE",
+          "stores": [
+            {
+              "id": "REP-NSW-GLADESVILLE",
+              "name": "REPCO GLADESVILLE",
+              "brand": "REPCO",
+              "suburb": "GLADESVILLE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GOULBURN",
+          "stores": [
+            {
+              "id": "REP-NSW-GOULBURN",
+              "name": "REPCO GOULBURN",
+              "brand": "REPCO",
+              "suburb": "GOULBURN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GRAFTON",
+          "stores": [
+            {
+              "id": "REP-NSW-GRAFTON",
+              "name": "REPCO GRAFTON",
+              "brand": "REPCO",
+              "suburb": "GRAFTON",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GREEN HILLS",
+          "stores": [
+            {
+              "id": "REP-NSW-GREEN_HILLS",
+              "name": "REPCO GREEN HILLS",
+              "brand": "REPCO",
+              "suburb": "GREEN HILLS",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GREGORY HILLS",
+          "stores": [
+            {
+              "id": "REP-NSW-GREGORY_HILLS",
+              "name": "REPCO GREGORY HILLS",
+              "brand": "REPCO",
+              "suburb": "GREGORY HILLS",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GRIFFITH",
+          "stores": [
+            {
+              "id": "REP-NSW-GRIFFITH",
+              "name": "REPCO GRIFFITH",
+              "brand": "REPCO",
+              "suburb": "GRIFFITH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HAMILTON",
+          "stores": [
+            {
+              "id": "REP-NSW-HAMILTON",
+              "name": "REPCO NEWCASTLE",
+              "brand": "REPCO",
+              "suburb": "HAMILTON",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HOXTON PARK",
+          "stores": [
+            {
+              "id": "REP-NSW-HOXTON_PARK",
+              "name": "REPCO HOXTON PARK",
+              "brand": "REPCO",
+              "suburb": "HOXTON PARK",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "INGLEBURN",
+          "stores": [
+            {
+              "id": "REP-NSW-INGLEBURN",
+              "name": "REPCO INGLEBURN",
+              "brand": "REPCO",
+              "suburb": "INGLEBURN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "INVERELL",
+          "stores": [
+            {
+              "id": "REP-NSW-INVERELL",
+              "name": "REPCO INVERELL",
+              "brand": "REPCO",
+              "suburb": "INVERELL",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KATOOMBA",
+          "stores": [
+            {
+              "id": "REP-NSW-KATOOMBA",
+              "name": "REPCO KATOOMBA",
+              "brand": "REPCO",
+              "suburb": "KATOOMBA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KELSO",
+          "stores": [
+            {
+              "id": "REP-NSW-KELSO",
+              "name": "REPCO BATHURST",
+              "brand": "REPCO",
+              "suburb": "KELSO",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KEMPSEY",
+          "stores": [
+            {
+              "id": "REP-NSW-KEMPSEY",
+              "name": "REPCO KEMPSEY",
+              "brand": "REPCO",
+              "suburb": "KEMPSEY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LAKE HAVEN",
+          "stores": [
+            {
+              "id": "REP-NSW-LAKE_HAVEN",
+              "name": "REPCO LAKE HAVEN",
+              "brand": "REPCO",
+              "suburb": "LAKE HAVEN",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LIDCOMBE",
+          "stores": [
+            {
+              "id": "REP-NSW-LIDCOMBE",
+              "name": "REPCO LIDCOMBE",
+              "brand": "REPCO",
+              "suburb": "LIDCOMBE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LISMORE",
+          "stores": [
+            {
+              "id": "REP-NSW-LISMORE",
+              "name": "REPCO LISMORE",
+              "brand": "REPCO",
+              "suburb": "LISMORE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LONG JETTY",
+          "stores": [
+            {
+              "id": "REP-NSW-LONG_JETTY",
+              "name": "REPCO LONG JETTY",
+              "brand": "REPCO",
+              "suburb": "LONG JETTY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MINCHINBURY",
+          "stores": [
+            {
+              "id": "REP-NSW-MINCHINBURY",
+              "name": "REPCO MINCHINBURY",
+              "brand": "REPCO",
+              "suburb": "MINCHINBURY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MITTAGONG",
+          "stores": [
+            {
+              "id": "REP-NSW-MITTAGONG",
+              "name": "REPCO MITTAGONG",
+              "brand": "REPCO",
+              "suburb": "MITTAGONG",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MONA VALE",
+          "stores": [
+            {
+              "id": "REP-NSW-MONA_VALE",
+              "name": "REPCO MONA VALE",
+              "brand": "REPCO",
+              "suburb": "MONA VALE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MOREE",
+          "stores": [
+            {
+              "id": "REP-NSW-MOREE",
+              "name": "REPCO MOREE",
+              "brand": "REPCO",
+              "suburb": "MOREE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MUDGEE",
+          "stores": [
+            {
+              "id": "REP-NSW-MUDGEE",
+              "name": "REPCO MUDGEE",
+              "brand": "REPCO",
+              "suburb": "MUDGEE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MURWILLUMBAH",
+          "stores": [
+            {
+              "id": "REP-NSW-MURWILLUMBAH",
+              "name": "REPCO MURWILLUMBAH",
+              "brand": "REPCO",
+              "suburb": "MURWILLUMBAH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MUSWELLBROOK",
+          "stores": [
+            {
+              "id": "REP-NSW-MUSWELLBROOK",
+              "name": "REPCO MUSWELLBROOK",
+              "brand": "REPCO",
+              "suburb": "MUSWELLBROOK",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NAMBUCCA HEADS",
+          "stores": [
+            {
+              "id": "REP-NSW-NAMBUCCA_HEADS",
+              "name": "REPCO NAMBUCCA HEADS",
+              "brand": "REPCO",
+              "suburb": "NAMBUCCA HEADS",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NARRABRI",
+          "stores": [
+            {
+              "id": "REP-NSW-NARRABRI",
+              "name": "REPCO NARRABRI",
+              "brand": "REPCO",
+              "suburb": "NARRABRI",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NEWCASTLE",
+          "stores": [
+            {
+              "id": "NAP-NSW-NEWCASTLE",
+              "name": "NAPA NEWCASTLE",
+              "brand": "NAPA",
+              "suburb": "NEWCASTLE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTH PARRAMATTA",
+          "stores": [
+            {
+              "id": "REP-NSW-NORTH_PARRAMATTA",
+              "name": "REPCO NORTH PARRAMATTA",
+              "brand": "REPCO",
+              "suburb": "NORTH PARRAMATTA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NOWRA",
+          "stores": [
+            {
+              "id": "REP-NSW-NOWRA",
+              "name": "REPCO NOWRA",
+              "brand": "REPCO",
+              "suburb": "NOWRA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ORANGE",
+          "stores": [
+            {
+              "id": "REP-NSW-ORANGE",
+              "name": "REPCO ORANGE",
+              "brand": "REPCO",
+              "suburb": "ORANGE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PARKES",
+          "stores": [
+            {
+              "id": "REP-NSW-PARKES",
+              "name": "REPCO PARKES",
+              "brand": "REPCO",
+              "suburb": "PARKES",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PENRITH",
+          "stores": [
+            {
+              "id": "REP-NSW-PENRITH",
+              "name": "REPCO PENRITH",
+              "brand": "REPCO",
+              "suburb": "PENRITH",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-PENRITH",
+              "name": "NAPA PENRITH",
+              "brand": "NAPA",
+              "suburb": "PENRITH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORT MACQUARIE",
+          "stores": [
+            {
+              "id": "REP-NSW-PORT_MACQUARIE",
+              "name": "REPCO PORT MACQUARIE",
+              "brand": "REPCO",
+              "suburb": "PORT MACQUARIE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "RAYMOND TERRACE",
+          "stores": [
+            {
+              "id": "REP-NSW-RAYMOND_TERRACE",
+              "name": "REPCO RAYMOND TERRACE",
+              "brand": "REPCO",
+              "suburb": "RAYMOND TERRACE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROCKDALE",
+          "stores": [
+            {
+              "id": "REP-NSW-ROCKDALE",
+              "name": "REPCO ROCKDALE",
+              "brand": "REPCO",
+              "suburb": "ROCKDALE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "RUTHERFORD",
+          "stores": [
+            {
+              "id": "REP-NSW-RUTHERFORD",
+              "name": "REPCO RUTHERFORD",
+              "brand": "REPCO",
+              "suburb": "RUTHERFORD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SHELLHARBOUR",
+          "stores": [
+            {
+              "id": "REP-NSW-SHELLHARBOUR",
+              "name": "REPCO SHELLHARBOUR",
+              "brand": "REPCO",
+              "suburb": "SHELLHARBOUR",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SINGLETON",
+          "stores": [
+            {
+              "id": "REP-NSW-SINGLETON",
+              "name": "REPCO SINGLETON",
+              "brand": "REPCO",
+              "suburb": "SINGLETON",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SMEATON GRANGE",
+          "stores": [
+            {
+              "id": "NAP-NSW-SMEATON_GRANGE",
+              "name": "NAPA SMEATON GRANGE",
+              "brand": "NAPA",
+              "suburb": "SMEATON GRANGE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SMITHFIELD",
+          "stores": [
+            {
+              "id": "REP-NSW-SMITHFIELD",
+              "name": "REPCO SMITHFIELD",
+              "brand": "REPCO",
+              "suburb": "SMITHFIELD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SPRINGWOOD",
+          "stores": [
+            {
+              "id": "REP-NSW-SPRINGWOOD",
+              "name": "REPCO SPRINGWOOD NSW",
+              "brand": "REPCO",
+              "suburb": "SPRINGWOOD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ST PETERS",
+          "stores": [
+            {
+              "id": "REP-NSW-ST_PETERS",
+              "name": "REPCO ST PETERS",
+              "brand": "REPCO",
+              "suburb": "ST PETERS",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TAMWORTH",
+          "stores": [
+            {
+              "id": "REP-NSW-TAMWORTH",
+              "name": "REPCO TAMWORTH",
+              "brand": "REPCO",
+              "suburb": "TAMWORTH",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-TAMWORTH",
+              "name": "NAPA TAMWORTH",
+              "brand": "NAPA",
+              "suburb": "TAMWORTH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TAREE",
+          "stores": [
+            {
+              "id": "REP-NSW-TAREE",
+              "name": "REPCO TAREE",
+              "brand": "REPCO",
+              "suburb": "TAREE",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TAREN POINT",
+          "stores": [
+            {
+              "id": "REP-NSW-TAREN_POINT",
+              "name": "REPCO TAREN POINT",
+              "brand": "REPCO",
+              "suburb": "TAREN POINT",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TAYLORS BEACH",
+          "stores": [
+            {
+              "id": "REP-NSW-TAYLORS_BEACH",
+              "name": "REPCO TAYLORS BEACH",
+              "brand": "REPCO",
+              "suburb": "TAYLORS BEACH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TEMORA",
+          "stores": [
+            {
+              "id": "REP-NSW-TEMORA",
+              "name": "REPCO TEMORA",
+              "brand": "REPCO",
+              "suburb": "TEMORA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TORONTO",
+          "stores": [
+            {
+              "id": "REP-NSW-TORONTO",
+              "name": "REPCO TORONTO",
+              "brand": "REPCO",
+              "suburb": "TORONTO",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TUGGERAH",
+          "stores": [
+            {
+              "id": "REP-NSW-TUGGERAH",
+              "name": "REPCO TUGGERAH",
+              "brand": "REPCO",
+              "suburb": "TUGGERAH",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TUMUT",
+          "stores": [
+            {
+              "id": "REP-NSW-TUMUT",
+              "name": "REPCO TUMUT",
+              "brand": "REPCO",
+              "suburb": "TUMUT",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TWEED HEADS",
+          "stores": [
+            {
+              "id": "REP-NSW-TWEED_HEADS",
+              "name": "REPCO SOUTH TWEED HEADS",
+              "brand": "REPCO",
+              "suburb": "TWEED HEADS",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ULLADULLA",
+          "stores": [
+            {
+              "id": "REP-NSW-ULLADULLA",
+              "name": "REPCO ULLADULLA",
+              "brand": "REPCO",
+              "suburb": "ULLADULLA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "VINEYARD",
+          "stores": [
+            {
+              "id": "REP-NSW-VINEYARD",
+              "name": "REPCO MCGRATHS HILL",
+              "brand": "REPCO",
+              "suburb": "VINEYARD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WAGGA WAGGA",
+          "stores": [
+            {
+              "id": "NAP-NSW-WAGGA_WAGGA",
+              "name": "NAPA WAGGA WAGGA",
+              "brand": "NAPA",
+              "suburb": "WAGGA WAGGA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WAITARA",
+          "stores": [
+            {
+              "id": "REP-NSW-WAITARA",
+              "name": "REPCO WAITARA",
+              "brand": "REPCO",
+              "suburb": "WAITARA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WEST GOSFORD",
+          "stores": [
+            {
+              "id": "REP-NSW-WEST_GOSFORD",
+              "name": "REPCO WEST GOSFORD",
+              "brand": "REPCO",
+              "suburb": "WEST GOSFORD",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WETHERILL PARK",
+          "stores": [
+            {
+              "id": "NAP-NSW-WETHERILL_PARK",
+              "name": "NAPA WETHERILL PARK",
+              "brand": "NAPA",
+              "suburb": "WETHERILL PARK",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WOLLONGONG",
+          "stores": [
+            {
+              "id": "REP-NSW-WOLLONGONG",
+              "name": "REPCO WOLLONGONG",
+              "brand": "REPCO",
+              "suburb": "WOLLONGONG",
+              "state": "NSW",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NSW-WOLLONGONG",
+              "name": "NAPA WOLLONGONG",
+              "brand": "NAPA",
+              "suburb": "WOLLONGONG",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WOY WOY",
+          "stores": [
+            {
+              "id": "REP-NSW-WOY_WOY",
+              "name": "REPCO WOY WOY",
+              "brand": "REPCO",
+              "suburb": "WOY WOY",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YAMBA",
+          "stores": [
+            {
+              "id": "REP-NSW-YAMBA",
+              "name": "REPCO YAMBA",
+              "brand": "REPCO",
+              "suburb": "YAMBA",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YOUNG",
+          "stores": [
+            {
+              "id": "REP-NSW-YOUNG",
+              "name": "REPCO YOUNG",
+              "brand": "REPCO",
+              "suburb": "YOUNG",
+              "state": "NSW",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "ACT",
+      "code": "ACT",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "BELCONNEN",
+          "stores": [
+            {
+              "id": "REP-ACT-BELCONNEN",
+              "name": "REPCO BELCONNEN",
+              "brand": "REPCO",
+              "suburb": "BELCONNEN",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CANBERRA",
+          "stores": [
+            {
+              "id": "NAP-ACT-CANBERRA",
+              "name": "NAPA CANBERRA",
+              "brand": "NAPA",
+              "suburb": "CANBERRA",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FYSHWICK",
+          "stores": [
+            {
+              "id": "REP-ACT-FYSHWICK",
+              "name": "REPCO FYSHWICK",
+              "brand": "REPCO",
+              "suburb": "FYSHWICK",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GREENWAY",
+          "stores": [
+            {
+              "id": "REP-ACT-GREENWAY",
+              "name": "REPCO TUGGERANONG",
+              "brand": "REPCO",
+              "suburb": "GREENWAY",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MITCHELL",
+          "stores": [
+            {
+              "id": "REP-ACT-MITCHELL",
+              "name": "REPCO MITCHELL",
+              "brand": "REPCO",
+              "suburb": "MITCHELL",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PHILLIP",
+          "stores": [
+            {
+              "id": "REP-ACT-PHILLIP",
+              "name": "REPCO PHILLIP",
+              "brand": "REPCO",
+              "suburb": "PHILLIP",
+              "state": "ACT",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Victoria",
+      "code": "VIC",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "AIRPORT WEST",
+          "stores": [
+            {
+              "id": "REP-VIC-AIRPORT_WEST",
+              "name": "REPCO AIRPORT WEST",
+              "brand": "REPCO",
+              "suburb": "AIRPORT WEST",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ALTONA NORTH",
+          "stores": [
+            {
+              "id": "REP-VIC-ALTONA_NORTH",
+              "name": "REPCO ALTONA",
+              "brand": "REPCO",
+              "suburb": "ALTONA NORTH",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ARARAT",
+          "stores": [
+            {
+              "id": "REP-VIC-ARARAT",
+              "name": "REPCO ARARAT",
+              "brand": "REPCO",
+              "suburb": "ARARAT",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BAIRNSDALE",
+          "stores": [
+            {
+              "id": "REP-VIC-BAIRNSDALE",
+              "name": "REPCO BAIRNSDALE",
+              "brand": "REPCO",
+              "suburb": "BAIRNSDALE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BALLARAT",
+          "stores": [
+            {
+              "id": "REP-VIC-BALLARAT",
+              "name": "REPCO BALLARAT",
+              "brand": "REPCO",
+              "suburb": "BALLARAT",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-BALLARAT",
+              "name": "NAPA BALLARAT",
+              "brand": "NAPA",
+              "suburb": "BALLARAT",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BAYSWATER",
+          "stores": [
+            {
+              "id": "REP-VIC-BAYSWATER",
+              "name": "REPCO BAYSWATER",
+              "brand": "REPCO",
+              "suburb": "BAYSWATER",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-BAYSWATER",
+              "name": "NAPA BAYSWATER",
+              "brand": "NAPA",
+              "suburb": "BAYSWATER",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BENALLA",
+          "stores": [
+            {
+              "id": "REP-VIC-BENALLA",
+              "name": "REPCO BENALLA",
+              "brand": "REPCO",
+              "suburb": "BENALLA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BENDIGO",
+          "stores": [
+            {
+              "id": "REP-VIC-BENDIGO",
+              "name": "REPCO BENDIGO",
+              "brand": "REPCO",
+              "suburb": "BENDIGO",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-BENDIGO",
+              "name": "NAPA BENDIGO",
+              "brand": "NAPA",
+              "suburb": "BENDIGO",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BENTLEIGH EAST",
+          "stores": [
+            {
+              "id": "REP-VIC-BENTLEIGH_EAST",
+              "name": "REPCO BENTLEIGH EAST",
+              "brand": "REPCO",
+              "suburb": "BENTLEIGH EAST",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BOX HILL SOUTH",
+          "stores": [
+            {
+              "id": "REP-VIC-BOX_HILL_SOUTH",
+              "name": "REPCO BOX HILL",
+              "brand": "REPCO",
+              "suburb": "BOX HILL SOUTH",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BRUNSWICK",
+          "stores": [
+            {
+              "id": "REP-VIC-BRUNSWICK",
+              "name": "REPCO BRUNSWICK",
+              "brand": "REPCO",
+              "suburb": "BRUNSWICK",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CAROLINE SPRINGS",
+          "stores": [
+            {
+              "id": "REP-VIC-CAROLINE_SPRINGS",
+              "name": "REPCO CAROLINE SPRINGS",
+              "brand": "REPCO",
+              "suburb": "CAROLINE SPRINGS",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CARRUM DOWNS",
+          "stores": [
+            {
+              "id": "REP-VIC-CARRUM_DOWNS",
+              "name": "REPCO CARRUM DOWNS",
+              "brand": "REPCO",
+              "suburb": "CARRUM DOWNS",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CLAYTON",
+          "stores": [
+            {
+              "id": "NAP-VIC-CLAYTON",
+              "name": "NAPA CLAYTON",
+              "brand": "NAPA",
+              "suburb": "CLAYTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CLYDE NORTH",
+          "stores": [
+            {
+              "id": "REP-VIC-CLYDE_NORTH",
+              "name": "REPCO CLYDE NORTH",
+              "brand": "REPCO",
+              "suburb": "CLYDE NORTH",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COBRAM",
+          "stores": [
+            {
+              "id": "REP-VIC-COBRAM",
+              "name": "REPCO COBRAM",
+              "brand": "REPCO",
+              "suburb": "COBRAM",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COLAC",
+          "stores": [
+            {
+              "id": "REP-VIC-COLAC",
+              "name": "REPCO COLAC",
+              "brand": "REPCO",
+              "suburb": "COLAC",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CRANBOURNE",
+          "stores": [
+            {
+              "id": "REP-VIC-CRANBOURNE",
+              "name": "REPCO CRANBOURNE",
+              "brand": "REPCO",
+              "suburb": "CRANBOURNE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DANDENONG",
+          "stores": [
+            {
+              "id": "REP-VIC-DANDENONG",
+              "name": "REPCO DANDENONG",
+              "brand": "REPCO",
+              "suburb": "DANDENONG",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-DANDENONG",
+              "name": "NAPA DANDENONG",
+              "brand": "NAPA",
+              "suburb": "DANDENONG",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DOVETON",
+          "stores": [
+            {
+              "id": "REP-VIC-DOVETON",
+              "name": "REPCO DOVETON",
+              "brand": "REPCO",
+              "suburb": "DOVETON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ECHUCA",
+          "stores": [
+            {
+              "id": "REP-VIC-ECHUCA",
+              "name": "REPCO ECHUCA",
+              "brand": "REPCO",
+              "suburb": "ECHUCA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ELTHAM",
+          "stores": [
+            {
+              "id": "REP-VIC-ELTHAM",
+              "name": "REPCO ELTHAM",
+              "brand": "REPCO",
+              "suburb": "ELTHAM",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "EPPING",
+          "stores": [
+            {
+              "id": "REP-VIC-EPPING",
+              "name": "REPCO EPPING",
+              "brand": "REPCO",
+              "suburb": "EPPING",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-EPPING",
+              "name": "NAPA EPPING",
+              "brand": "NAPA",
+              "suburb": "EPPING",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FAWKNER",
+          "stores": [
+            {
+              "id": "REP-VIC-FAWKNER",
+              "name": "REPCO FAWKNER",
+              "brand": "REPCO",
+              "suburb": "FAWKNER",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FERNTREE GULLY",
+          "stores": [
+            {
+              "id": "REP-VIC-FERNTREE_GULLY",
+              "name": "REPCO FERNTREE GULLY",
+              "brand": "REPCO",
+              "suburb": "FERNTREE GULLY",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FOOTSCRAY",
+          "stores": [
+            {
+              "id": "REP-VIC-FOOTSCRAY",
+              "name": "REPCO FOOTSCRAY",
+              "brand": "REPCO",
+              "suburb": "FOOTSCRAY",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FRANKSTON",
+          "stores": [
+            {
+              "id": "REP-VIC-FRANKSTON",
+              "name": "REPCO FRANKSTON",
+              "brand": "REPCO",
+              "suburb": "FRANKSTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GEELONG",
+          "stores": [
+            {
+              "id": "REP-VIC-GEELONG",
+              "name": "REPCO GEELONG",
+              "brand": "REPCO",
+              "suburb": "GEELONG",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-GEELONG",
+              "name": "NAPA GEELONG",
+              "brand": "NAPA",
+              "suburb": "GEELONG",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HAMILTON",
+          "stores": [
+            {
+              "id": "REP-VIC-HAMILTON",
+              "name": "REPCO HAMILTON",
+              "brand": "REPCO",
+              "suburb": "HAMILTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HASTINGS",
+          "stores": [
+            {
+              "id": "REP-VIC-HASTINGS",
+              "name": "REPCO HASTINGS",
+              "brand": "REPCO",
+              "suburb": "HASTINGS",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HEATHERTON",
+          "stores": [
+            {
+              "id": "REP-VIC-HEATHERTON",
+              "name": "REPCO MOORABBIN",
+              "brand": "REPCO",
+              "suburb": "HEATHERTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HOPPERS CROSSING",
+          "stores": [
+            {
+              "id": "REP-VIC-HOPPERS_CROSSING",
+              "name": "REPCO HOPPERS CROSSING",
+              "brand": "REPCO",
+              "suburb": "HOPPERS CROSSING",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HORSHAM",
+          "stores": [
+            {
+              "id": "REP-VIC-HORSHAM",
+              "name": "REPCO HORSHAM",
+              "brand": "REPCO",
+              "suburb": "HORSHAM",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KANGAROO FLAT",
+          "stores": [
+            {
+              "id": "REP-VIC-KANGAROO_FLAT",
+              "name": "REPCO KANGAROO FLAT",
+              "brand": "REPCO",
+              "suburb": "KANGAROO FLAT",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KILMORE",
+          "stores": [
+            {
+              "id": "REP-VIC-KILMORE",
+              "name": "REPCO KILMORE",
+              "brand": "REPCO",
+              "suburb": "KILMORE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LEONGATHA",
+          "stores": [
+            {
+              "id": "REP-VIC-LEONGATHA",
+              "name": "REPCO LEONGATHA",
+              "brand": "REPCO",
+              "suburb": "LEONGATHA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LILYDALE",
+          "stores": [
+            {
+              "id": "REP-VIC-LILYDALE",
+              "name": "REPCO LILYDALE",
+              "brand": "REPCO",
+              "suburb": "LILYDALE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MARYBOROUGH",
+          "stores": [
+            {
+              "id": "REP-VIC-MARYBOROUGH",
+              "name": "REPCO MARYBOROUGH VIC",
+              "brand": "REPCO",
+              "suburb": "MARYBOROUGH",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MELTON",
+          "stores": [
+            {
+              "id": "REP-VIC-MELTON",
+              "name": "REPCO MELTON",
+              "brand": "REPCO",
+              "suburb": "MELTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MENTONE",
+          "stores": [
+            {
+              "id": "REP-VIC-MENTONE",
+              "name": "REPCO MENTONE",
+              "brand": "REPCO",
+              "suburb": "MENTONE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MILDURA",
+          "stores": [
+            {
+              "id": "REP-VIC-MILDURA",
+              "name": "REPCO MILDURA",
+              "brand": "REPCO",
+              "suburb": "MILDURA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MOE",
+          "stores": [
+            {
+              "id": "REP-VIC-MOE",
+              "name": "REPCO MOE",
+              "brand": "REPCO",
+              "suburb": "MOE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MORNINGTON",
+          "stores": [
+            {
+              "id": "REP-VIC-MORNINGTON",
+              "name": "REPCO MORNINGTON VIC",
+              "brand": "REPCO",
+              "suburb": "MORNINGTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MORWELL",
+          "stores": [
+            {
+              "id": "REP-VIC-MORWELL",
+              "name": "REPCO MORWELL",
+              "brand": "REPCO",
+              "suburb": "MORWELL",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NARRE WARREN",
+          "stores": [
+            {
+              "id": "REP-VIC-NARRE_WARREN",
+              "name": "REPCO NARRE WARREN",
+              "brand": "REPCO",
+              "suburb": "NARRE WARREN",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORLANE",
+          "stores": [
+            {
+              "id": "REP-VIC-NORLANE",
+              "name": "REPCO GEELONG NORTH",
+              "brand": "REPCO",
+              "suburb": "NORLANE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NUNAWADING",
+          "stores": [
+            {
+              "id": "REP-VIC-NUNAWADING",
+              "name": "REPCO NUNAWADING",
+              "brand": "REPCO",
+              "suburb": "NUNAWADING",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "OAKLEIGH",
+          "stores": [
+            {
+              "id": "REP-VIC-OAKLEIGH",
+              "name": "REPCO OAKLEIGH",
+              "brand": "REPCO",
+              "suburb": "OAKLEIGH",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PAKENHAM",
+          "stores": [
+            {
+              "id": "REP-VIC-PAKENHAM_1",
+              "name": "REPCO PAKENHAM",
+              "brand": "REPCO",
+              "suburb": "PAKENHAM",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "REP-VIC-PAKENHAM_2",
+              "name": "REPCO PAKENHAM LAKESIDE",
+              "brand": "REPCO",
+              "suburb": "PAKENHAM",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-PAKENHAM",
+              "name": "NAPA PAKENHAM",
+              "brand": "NAPA",
+              "suburb": "PAKENHAM",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORTLAND",
+          "stores": [
+            {
+              "id": "REP-VIC-PORTLAND",
+              "name": "REPCO PORTLAND",
+              "brand": "REPCO",
+              "suburb": "PORTLAND",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PRESTON",
+          "stores": [
+            {
+              "id": "REP-VIC-PRESTON",
+              "name": "REPCO PRESTON",
+              "brand": "REPCO",
+              "suburb": "PRESTON",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-PRESTON",
+              "name": "NAPA PRESTON",
+              "brand": "NAPA",
+              "suburb": "PRESTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "RICHMOND",
+          "stores": [
+            {
+              "id": "REP-VIC-RICHMOND",
+              "name": "REPCO RICHMOND VIC",
+              "brand": "REPCO",
+              "suburb": "RICHMOND",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROSEBUD",
+          "stores": [
+            {
+              "id": "REP-VIC-ROSEBUD",
+              "name": "REPCO ROSEBUD",
+              "brand": "REPCO",
+              "suburb": "ROSEBUD",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROWVILLE",
+          "stores": [
+            {
+              "id": "REP-VIC-ROWVILLE",
+              "name": "REPCO ROWVILLE",
+              "brand": "REPCO",
+              "suburb": "ROWVILLE",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "GPC-VIC-ROWVILLE",
+              "name": "GPC ROWVILLE",
+              "brand": "GPC",
+              "suburb": "ROWVILLE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROXBURGH PARK",
+          "stores": [
+            {
+              "id": "REP-VIC-ROXBURGH_PARK",
+              "name": "REPCO ROXBURGH PARK",
+              "brand": "REPCO",
+              "suburb": "ROXBURGH PARK",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SALE",
+          "stores": [
+            {
+              "id": "REP-VIC-SALE",
+              "name": "REPCO SALE",
+              "brand": "REPCO",
+              "suburb": "SALE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SEYMOUR",
+          "stores": [
+            {
+              "id": "REP-VIC-SEYMOUR",
+              "name": "REPCO SEYMOUR",
+              "brand": "REPCO",
+              "suburb": "SEYMOUR",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SHEPPARTON",
+          "stores": [
+            {
+              "id": "REP-VIC-SHEPPARTON",
+              "name": "REPCO SHEPPARTON",
+              "brand": "REPCO",
+              "suburb": "SHEPPARTON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SOUTH MORANG",
+          "stores": [
+            {
+              "id": "REP-VIC-SOUTH_MORANG",
+              "name": "REPCO SOUTH MORANG",
+              "brand": "REPCO",
+              "suburb": "SOUTH MORANG",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SPRINGVALE",
+          "stores": [
+            {
+              "id": "REP-VIC-SPRINGVALE",
+              "name": "REPCO CLAYTON",
+              "brand": "REPCO",
+              "suburb": "SPRINGVALE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SUNBURY",
+          "stores": [
+            {
+              "id": "REP-VIC-SUNBURY",
+              "name": "REPCO SUNBURY",
+              "brand": "REPCO",
+              "suburb": "SUNBURY",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SUNSHINE",
+          "stores": [
+            {
+              "id": "REP-VIC-SUNSHINE",
+              "name": "REPCO SUNSHINE",
+              "brand": "REPCO",
+              "suburb": "SUNSHINE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SUNSHINE WEST",
+          "stores": [
+            {
+              "id": "NAP-VIC-SUNSHINE_WEST",
+              "name": "NAPA SUNSHINE WEST",
+              "brand": "NAPA",
+              "suburb": "SUNSHINE WEST",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SWAN HILL",
+          "stores": [
+            {
+              "id": "REP-VIC-SWAN_HILL",
+              "name": "REPCO SWAN HILL",
+              "brand": "REPCO",
+              "suburb": "SWAN HILL",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TARNEIT",
+          "stores": [
+            {
+              "id": "REP-VIC-TARNEIT",
+              "name": "REPCO TARNEIT",
+              "brand": "REPCO",
+              "suburb": "TARNEIT",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "THOMASTOWN",
+          "stores": [
+            {
+              "id": "REP-VIC-THOMASTOWN",
+              "name": "REPCO THOMASTOWN",
+              "brand": "REPCO",
+              "suburb": "THOMASTOWN",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TRARALGON",
+          "stores": [
+            {
+              "id": "REP-VIC-TRARALGON",
+              "name": "REPCO TRARALGON",
+              "brand": "REPCO",
+              "suburb": "TRARALGON",
+              "state": "VIC",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-VIC-TRARALGON",
+              "name": "NAPA TRARALGON",
+              "brand": "NAPA",
+              "suburb": "TRARALGON",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TULLAMARINE",
+          "stores": [
+            {
+              "id": "NAP-VIC-TULLAMARINE",
+              "name": "NAPA TULLAMARINE",
+              "brand": "NAPA",
+              "suburb": "TULLAMARINE",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WANGARATTA",
+          "stores": [
+            {
+              "id": "REP-VIC-WANGARATTA",
+              "name": "REPCO WANGARATTA",
+              "brand": "REPCO",
+              "suburb": "WANGARATTA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WARRAGUL",
+          "stores": [
+            {
+              "id": "REP-VIC-WARRAGUL",
+              "name": "REPCO WARRAGUL",
+              "brand": "REPCO",
+              "suburb": "WARRAGUL",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WARRNAMBOOL",
+          "stores": [
+            {
+              "id": "REP-VIC-WARRNAMBOOL",
+              "name": "REPCO WARRNAMBOOL",
+              "brand": "REPCO",
+              "suburb": "WARRNAMBOOL",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WATER GARDENS",
+          "stores": [
+            {
+              "id": "REP-VIC-WATER_GARDENS",
+              "name": "REPCO WATER GARDENS",
+              "brand": "REPCO",
+              "suburb": "WATER GARDENS",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WAURN PONDS",
+          "stores": [
+            {
+              "id": "REP-VIC-WAURN_PONDS",
+              "name": "REPCO WAURN PONDS",
+              "brand": "REPCO",
+              "suburb": "WAURN PONDS",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WODONGA",
+          "stores": [
+            {
+              "id": "REP-VIC-WODONGA",
+              "name": "REPCO WODONGA",
+              "brand": "REPCO",
+              "suburb": "WODONGA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WONTHAGGI",
+          "stores": [
+            {
+              "id": "REP-VIC-WONTHAGGI",
+              "name": "REPCO WONTHAGGI",
+              "brand": "REPCO",
+              "suburb": "WONTHAGGI",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YARRAWONGA",
+          "stores": [
+            {
+              "id": "REP-VIC-YARRAWONGA",
+              "name": "REPCO YARRAWONGA",
+              "brand": "REPCO",
+              "suburb": "YARRAWONGA",
+              "state": "VIC",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Queensland",
+      "code": "QLD",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "AIRLIE BEACH",
+          "stores": [
+            {
+              "id": "REP-QLD-AIRLIE_BEACH",
+              "name": "REPCO AIRLIE BEACH",
+              "brand": "REPCO",
+              "suburb": "AIRLIE BEACH",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ALBION",
+          "stores": [
+            {
+              "id": "REP-QLD-ALBION",
+              "name": "REPCO ALBION",
+              "brand": "REPCO",
+              "suburb": "ALBION",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ATHERTON",
+          "stores": [
+            {
+              "id": "REP-QLD-ATHERTON",
+              "name": "REPCO ATHERTON",
+              "brand": "REPCO",
+              "suburb": "ATHERTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "AYR",
+          "stores": [
+            {
+              "id": "REP-QLD-AYR",
+              "name": "REPCO AYR",
+              "brand": "REPCO",
+              "suburb": "AYR",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BEAUDESERT",
+          "stores": [
+            {
+              "id": "REP-QLD-BEAUDESERT",
+              "name": "REPCO BEAUDESERT",
+              "brand": "REPCO",
+              "suburb": "BEAUDESERT",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BEENLEIGH",
+          "stores": [
+            {
+              "id": "REP-QLD-BEENLEIGH",
+              "name": "REPCO BEENLEIGH",
+              "brand": "REPCO",
+              "suburb": "BEENLEIGH",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BILOELA",
+          "stores": [
+            {
+              "id": "REP-QLD-BILOELA",
+              "name": "REPCO BILOELA",
+              "brand": "REPCO",
+              "suburb": "BILOELA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BIRTINYA",
+          "stores": [
+            {
+              "id": "REP-QLD-BIRTINYA",
+              "name": "REPCO KAWANA",
+              "brand": "REPCO",
+              "suburb": "BIRTINYA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BOOVAL",
+          "stores": [
+            {
+              "id": "REP-QLD-BOOVAL",
+              "name": "REPCO BOOVAL",
+              "brand": "REPCO",
+              "suburb": "BOOVAL",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BOWEN",
+          "stores": [
+            {
+              "id": "REP-QLD-BOWEN",
+              "name": "REPCO BOWEN",
+              "brand": "REPCO",
+              "suburb": "BOWEN",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BRISBANE AIRPORT",
+          "stores": [
+            {
+              "id": "NAP-QLD-BRISBANE_AIRPORT",
+              "name": "NAPA BRISBANE AIRPORT",
+              "brand": "NAPA",
+              "suburb": "BRISBANE AIRPORT",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "GPC-QLD-BRISBANE_AIRPORT",
+              "name": "GPC BRISBANE AIRPORT",
+              "brand": "GPC",
+              "suburb": "BRISBANE AIRPORT",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BROWNS PLAINS",
+          "stores": [
+            {
+              "id": "REP-QLD-BROWNS_PLAINS",
+              "name": "REPCO BROWNS PLAINS",
+              "brand": "REPCO",
+              "suburb": "BROWNS PLAINS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BUNDABERG",
+          "stores": [
+            {
+              "id": "REP-QLD-BUNDABERG",
+              "name": "REPCO BUNDABERG",
+              "brand": "REPCO",
+              "suburb": "BUNDABERG",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-BUNDABERG",
+              "name": "NAPA BUNDABERG",
+              "brand": "NAPA",
+              "suburb": "BUNDABERG",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BUNDALL",
+          "stores": [
+            {
+              "id": "REP-QLD-BUNDALL",
+              "name": "REPCO BUNDALL",
+              "brand": "REPCO",
+              "suburb": "BUNDALL",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BURLEIGH HEADS",
+          "stores": [
+            {
+              "id": "REP-QLD-BURLEIGH_HEADS",
+              "name": "REPCO BURLEIGH HEADS",
+              "brand": "REPCO",
+              "suburb": "BURLEIGH HEADS",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-BURLEIGH_HEADS",
+              "name": "NAPA BURLEIGH HEADS",
+              "brand": "NAPA",
+              "suburb": "BURLEIGH HEADS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CABOOLTURE",
+          "stores": [
+            {
+              "id": "NAP-QLD-CABOOLTURE",
+              "name": "NAPA CABOOLTURE",
+              "brand": "NAPA",
+              "suburb": "CABOOLTURE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CAIRNS",
+          "stores": [
+            {
+              "id": "REP-QLD-CAIRNS",
+              "name": "REPCO CAIRNS",
+              "brand": "REPCO",
+              "suburb": "CAIRNS",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-CAIRNS",
+              "name": "NAPA CAIRNS",
+              "brand": "NAPA",
+              "suburb": "CAIRNS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CALOUNDRA",
+          "stores": [
+            {
+              "id": "REP-QLD-CALOUNDRA",
+              "name": "REPCO CALOUNDRA",
+              "brand": "REPCO",
+              "suburb": "CALOUNDRA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CAPALABA",
+          "stores": [
+            {
+              "id": "REP-QLD-CAPALABA",
+              "name": "REPCO CAPALABA",
+              "brand": "REPCO",
+              "suburb": "CAPALABA",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-CAPALABA",
+              "name": "NAPA CAPALABA",
+              "brand": "NAPA",
+              "suburb": "CAPALABA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CHARTERS TOWERS",
+          "stores": [
+            {
+              "id": "REP-QLD-CHARTERS_TOWERS",
+              "name": "REPCO CHARTERS TOWERS",
+              "brand": "REPCO",
+              "suburb": "CHARTERS TOWERS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CHINCHILLA",
+          "stores": [
+            {
+              "id": "REP-QLD-CHINCHILLA",
+              "name": "REPCO CHINCHILLA",
+              "brand": "REPCO",
+              "suburb": "CHINCHILLA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COOPERS PLAINS",
+          "stores": [
+            {
+              "id": "REP-QLD-COOPERS_PLAINS",
+              "name": "REPCO COOPERS PLAINS",
+              "brand": "REPCO",
+              "suburb": "COOPERS PLAINS",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-COOPERS_PLAINS",
+              "name": "NAPA COOPERS PLAINS",
+              "brand": "NAPA",
+              "suburb": "COOPERS PLAINS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CURRUMBIN",
+          "stores": [
+            {
+              "id": "REP-QLD-CURRUMBIN",
+              "name": "REPCO CURRUMBIN",
+              "brand": "REPCO",
+              "suburb": "CURRUMBIN",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DALBY",
+          "stores": [
+            {
+              "id": "REP-QLD-DALBY",
+              "name": "REPCO DALBY",
+              "brand": "REPCO",
+              "suburb": "DALBY",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "EMERALD",
+          "stores": [
+            {
+              "id": "REP-QLD-EMERALD",
+              "name": "REPCO EMERALD",
+              "brand": "REPCO",
+              "suburb": "EMERALD",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-EMERALD",
+              "name": "NAPA EMERALD",
+              "brand": "NAPA",
+              "suburb": "EMERALD",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ENOGGERA",
+          "stores": [
+            {
+              "id": "REP-QLD-ENOGGERA",
+              "name": "REPCO ENOGGERA",
+              "brand": "REPCO",
+              "suburb": "ENOGGERA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GARBUTT",
+          "stores": [
+            {
+              "id": "REP-QLD-GARBUTT",
+              "name": "REPCO TOWNSVILLE",
+              "brand": "REPCO",
+              "suburb": "GARBUTT",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GATTON",
+          "stores": [
+            {
+              "id": "REP-QLD-GATTON",
+              "name": "REPCO GATTON",
+              "brand": "REPCO",
+              "suburb": "GATTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GLADSTONE",
+          "stores": [
+            {
+              "id": "REP-QLD-GLADSTONE",
+              "name": "REPCO GLADSTONE",
+              "brand": "REPCO",
+              "suburb": "GLADSTONE",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-GLADSTONE",
+              "name": "NAPA GLADSTONE",
+              "brand": "NAPA",
+              "suburb": "GLADSTONE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GOODNA",
+          "stores": [
+            {
+              "id": "REP-QLD-GOODNA",
+              "name": "REPCO GOODNA",
+              "brand": "REPCO",
+              "suburb": "GOODNA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GOONDIWINDI",
+          "stores": [
+            {
+              "id": "REP-QLD-GOONDIWINDI",
+              "name": "REPCO GOONDIWINDI",
+              "brand": "REPCO",
+              "suburb": "GOONDIWINDI",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GYMPIE",
+          "stores": [
+            {
+              "id": "REP-QLD-GYMPIE",
+              "name": "REPCO GYMPIE",
+              "brand": "REPCO",
+              "suburb": "GYMPIE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "INDOOROOPILLY",
+          "stores": [
+            {
+              "id": "REP-QLD-INDOOROOPILLY",
+              "name": "REPCO INDOOROOPILLY",
+              "brand": "REPCO",
+              "suburb": "INDOOROOPILLY",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "INGHAM",
+          "stores": [
+            {
+              "id": "REP-QLD-INGHAM",
+              "name": "REPCO INGHAM",
+              "brand": "REPCO",
+              "suburb": "INGHAM",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "INNISFAIL",
+          "stores": [
+            {
+              "id": "REP-QLD-INNISFAIL",
+              "name": "REPCO INNISFAIL",
+              "brand": "REPCO",
+              "suburb": "INNISFAIL",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KEDRON",
+          "stores": [
+            {
+              "id": "REP-QLD-KEDRON",
+              "name": "REPCO KEDRON",
+              "brand": "REPCO",
+              "suburb": "KEDRON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KENSINGTON",
+          "stores": [
+            {
+              "id": "REP-QLD-KENSINGTON",
+              "name": "REPCO WEST BUNDABERG",
+              "brand": "REPCO",
+              "suburb": "KENSINGTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KINGAROY",
+          "stores": [
+            {
+              "id": "REP-QLD-KINGAROY",
+              "name": "REPCO KINGAROY",
+              "brand": "REPCO",
+              "suburb": "KINGAROY",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KIPPA-RING",
+          "stores": [
+            {
+              "id": "REP-QLD-KIPPA_RING",
+              "name": "REPCO KIPPA RING",
+              "brand": "REPCO",
+              "suburb": "KIPPA-RING",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LABRADOR",
+          "stores": [
+            {
+              "id": "REP-QLD-LABRADOR",
+              "name": "REPCO LABRADOR",
+              "brand": "REPCO",
+              "suburb": "LABRADOR",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LAWNTON",
+          "stores": [
+            {
+              "id": "REP-QLD-LAWNTON",
+              "name": "REPCO LAWNTON",
+              "brand": "REPCO",
+              "suburb": "LAWNTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MACGREGOR",
+          "stores": [
+            {
+              "id": "REP-QLD-MACGREGOR",
+              "name": "REPCO MACGREGOR",
+              "brand": "REPCO",
+              "suburb": "MACGREGOR",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MACKAY",
+          "stores": [
+            {
+              "id": "REP-QLD-MACKAY",
+              "name": "REPCO MACKAY",
+              "brand": "REPCO",
+              "suburb": "MACKAY",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-MACKAY",
+              "name": "NAPA MACKAY",
+              "brand": "NAPA",
+              "suburb": "MACKAY",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MAREEBA",
+          "stores": [
+            {
+              "id": "REP-QLD-MAREEBA",
+              "name": "REPCO MAREEBA",
+              "brand": "REPCO",
+              "suburb": "MAREEBA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MAROOCHYDORE",
+          "stores": [
+            {
+              "id": "REP-QLD-MAROOCHYDORE",
+              "name": "REPCO MAROOCHYDORE",
+              "brand": "REPCO",
+              "suburb": "MAROOCHYDORE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MARYBOROUGH",
+          "stores": [
+            {
+              "id": "REP-QLD-MARYBOROUGH",
+              "name": "REPCO MARYBOROUGH QLD",
+              "brand": "REPCO",
+              "suburb": "MARYBOROUGH",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MORAYFIELD",
+          "stores": [
+            {
+              "id": "REP-QLD-MORAYFIELD",
+              "name": "REPCO MORAYFIELD",
+              "brand": "REPCO",
+              "suburb": "MORAYFIELD",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MOUNT ISA",
+          "stores": [
+            {
+              "id": "REP-QLD-MOUNT_ISA",
+              "name": "REPCO MOUNT ISA",
+              "brand": "REPCO",
+              "suburb": "MOUNT ISA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MT ISA",
+          "stores": [
+            {
+              "id": "NAP-QLD-MT_ISA",
+              "name": "NAPA MT ISA",
+              "brand": "NAPA",
+              "suburb": "MT ISA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NAMBOUR",
+          "stores": [
+            {
+              "id": "REP-QLD-NAMBOUR",
+              "name": "REPCO NAMBOUR",
+              "brand": "REPCO",
+              "suburb": "NAMBOUR",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NERANG",
+          "stores": [
+            {
+              "id": "REP-QLD-NERANG",
+              "name": "REPCO NERANG",
+              "brand": "REPCO",
+              "suburb": "NERANG",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NOOSAVILLE",
+          "stores": [
+            {
+              "id": "REP-QLD-NOOSAVILLE",
+              "name": "REPCO NOOSAVILLE",
+              "brand": "REPCO",
+              "suburb": "NOOSAVILLE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTH CAIRNS",
+          "stores": [
+            {
+              "id": "REP-QLD-NORTH_CAIRNS",
+              "name": "REPCO NORTH CAIRNS",
+              "brand": "REPCO",
+              "suburb": "NORTH CAIRNS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTH LAKES",
+          "stores": [
+            {
+              "id": "REP-QLD-NORTH_LAKES",
+              "name": "REPCO NORTH LAKES",
+              "brand": "REPCO",
+              "suburb": "NORTH LAKES",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTH MACKAY",
+          "stores": [
+            {
+              "id": "REP-QLD-NORTH_MACKAY",
+              "name": "REPCO NORTH MACKAY",
+              "brand": "REPCO",
+              "suburb": "NORTH MACKAY",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTH ROCKHAMPTON",
+          "stores": [
+            {
+              "id": "REP-QLD-NORTH_ROCKHAMPTON",
+              "name": "REPCO NORTH ROCKHAMPTON",
+              "brand": "REPCO",
+              "suburb": "NORTH ROCKHAMPTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "OXENFORD",
+          "stores": [
+            {
+              "id": "REP-QLD-OXENFORD",
+              "name": "REPCO OXENFORD",
+              "brand": "REPCO",
+              "suburb": "OXENFORD",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PAGET",
+          "stores": [
+            {
+              "id": "REP-QLD-PAGET",
+              "name": "REPCO PAGET",
+              "brand": "REPCO",
+              "suburb": "PAGET",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PIMPAMA",
+          "stores": [
+            {
+              "id": "REP-QLD-PIMPAMA",
+              "name": "REPCO PIMPAMA",
+              "brand": "REPCO",
+              "suburb": "PIMPAMA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "RICHLANDS",
+          "stores": [
+            {
+              "id": "REP-QLD-RICHLANDS",
+              "name": "REPCO RICHLANDS",
+              "brand": "REPCO",
+              "suburb": "RICHLANDS",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROBINA",
+          "stores": [
+            {
+              "id": "REP-QLD-ROBINA",
+              "name": "REPCO ROBINA",
+              "brand": "REPCO",
+              "suburb": "ROBINA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROCKHAMPTON",
+          "stores": [
+            {
+              "id": "REP-QLD-ROCKHAMPTON",
+              "name": "REPCO ROCKHAMPTON",
+              "brand": "REPCO",
+              "suburb": "ROCKHAMPTON",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-ROCKHAMPTON",
+              "name": "NAPA ROCKHAMPTON",
+              "brand": "NAPA",
+              "suburb": "ROCKHAMPTON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROMA",
+          "stores": [
+            {
+              "id": "REP-QLD-ROMA",
+              "name": "REPCO ROMA",
+              "brand": "REPCO",
+              "suburb": "ROMA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SLACKS CREEK",
+          "stores": [
+            {
+              "id": "REP-QLD-SLACKS_CREEK",
+              "name": "REPCO REPCO MAX LOGAN CITY",
+              "brand": "REPCO",
+              "suburb": "SLACKS CREEK",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-SLACKS_CREEK",
+              "name": "NAPA SLACKS CREEK",
+              "brand": "NAPA",
+              "suburb": "SLACKS CREEK",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "STANTHORPE",
+          "stores": [
+            {
+              "id": "REP-QLD-STANTHORPE",
+              "name": "REPCO STANTHORPE",
+              "brand": "REPCO",
+              "suburb": "STANTHORPE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SUMNER PARK",
+          "stores": [
+            {
+              "id": "REP-QLD-SUMNER_PARK",
+              "name": "REPCO SUMNER PARK",
+              "brand": "REPCO",
+              "suburb": "SUMNER PARK",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SUNSHINE COAST",
+          "stores": [
+            {
+              "id": "NAP-QLD-SUNSHINE_COAST",
+              "name": "NAPA SUNSHINE COAST",
+              "brand": "NAPA",
+              "suburb": "SUNSHINE COAST",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "THURINGOWA",
+          "stores": [
+            {
+              "id": "REP-QLD-THURINGOWA",
+              "name": "REPCO THURINGOWA",
+              "brand": "REPCO",
+              "suburb": "THURINGOWA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TOOWOOMBA",
+          "stores": [
+            {
+              "id": "REP-QLD-TOOWOOMBA",
+              "name": "REPCO TOOWOOMBA",
+              "brand": "REPCO",
+              "suburb": "TOOWOOMBA",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-TOOWOOMBA",
+              "name": "NAPA TOOWOOMBA",
+              "brand": "NAPA",
+              "suburb": "TOOWOOMBA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TOWNSVILLE",
+          "stores": [
+            {
+              "id": "NAP-QLD-TOWNSVILLE",
+              "name": "NAPA TOWNSVILLE",
+              "brand": "NAPA",
+              "suburb": "TOWNSVILLE",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "VIRGINIA",
+          "stores": [
+            {
+              "id": "REP-QLD-VIRGINIA",
+              "name": "REPCO VIRGINIA",
+              "brand": "REPCO",
+              "suburb": "VIRGINIA",
+              "state": "QLD",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-QLD-VIRGINIA",
+              "name": "NAPA VIRGINIA",
+              "brand": "NAPA",
+              "suburb": "VIRGINIA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WARWICK",
+          "stores": [
+            {
+              "id": "REP-QLD-WARWICK",
+              "name": "REPCO WARWICK",
+              "brand": "REPCO",
+              "suburb": "WARWICK",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WEST IPSWICH",
+          "stores": [
+            {
+              "id": "REP-QLD-WEST_IPSWICH",
+              "name": "REPCO WEST IPSWICH",
+              "brand": "REPCO",
+              "suburb": "WEST IPSWICH",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WEST TOOWOOMBA",
+          "stores": [
+            {
+              "id": "REP-QLD-WEST_TOOWOOMBA",
+              "name": "REPCO WEST TOOWOOMBA",
+              "brand": "REPCO",
+              "suburb": "WEST TOOWOOMBA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WOOLLOONGABBA",
+          "stores": [
+            {
+              "id": "REP-QLD-WOOLLOONGABBA",
+              "name": "REPCO WOOLLOONGABBA",
+              "brand": "REPCO",
+              "suburb": "WOOLLOONGABBA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WYNNUM",
+          "stores": [
+            {
+              "id": "REP-QLD-WYNNUM",
+              "name": "REPCO WYNNUM",
+              "brand": "REPCO",
+              "suburb": "WYNNUM",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YATALA",
+          "stores": [
+            {
+              "id": "NAP-QLD-YATALA",
+              "name": "NAPA YATALA",
+              "brand": "NAPA",
+              "suburb": "YATALA",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YEPPOON",
+          "stores": [
+            {
+              "id": "REP-QLD-YEPPOON",
+              "name": "REPCO YEPPOON",
+              "brand": "REPCO",
+              "suburb": "YEPPOON",
+              "state": "QLD",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "South Australia",
+      "code": "SA",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "BERRI",
+          "stores": [
+            {
+              "id": "REP-SA-BERRI",
+              "name": "REPCO BERRI",
+              "brand": "REPCO",
+              "suburb": "BERRI",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ELIZABETH",
+          "stores": [
+            {
+              "id": "REP-SA-ELIZABETH",
+              "name": "REPCO ELIZABETH",
+              "brand": "REPCO",
+              "suburb": "ELIZABETH",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GAWLER",
+          "stores": [
+            {
+              "id": "REP-SA-GAWLER",
+              "name": "REPCO GAWLER",
+              "brand": "REPCO",
+              "suburb": "GAWLER",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KADINA",
+          "stores": [
+            {
+              "id": "REP-SA-KADINA",
+              "name": "REPCO KADINA",
+              "brand": "REPCO",
+              "suburb": "KADINA",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KIDMAN PARK",
+          "stores": [
+            {
+              "id": "REP-SA-KIDMAN_PARK",
+              "name": "REPCO KIDMAN PARK",
+              "brand": "REPCO",
+              "suburb": "KIDMAN PARK",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KILBURN",
+          "stores": [
+            {
+              "id": "REP-SA-KILBURN",
+              "name": "REPCO CHURCHILL",
+              "brand": "REPCO",
+              "suburb": "KILBURN",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MARDEN",
+          "stores": [
+            {
+              "id": "REP-SA-MARDEN",
+              "name": "REPCO MARDEN",
+              "brand": "REPCO",
+              "suburb": "MARDEN",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MARLESTON",
+          "stores": [
+            {
+              "id": "REP-SA-MARLESTON",
+              "name": "REPCO MARLESTON",
+              "brand": "REPCO",
+              "suburb": "MARLESTON",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MITCHELL PARK",
+          "stores": [
+            {
+              "id": "REP-SA-MITCHELL_PARK",
+              "name": "REPCO MARION",
+              "brand": "REPCO",
+              "suburb": "MITCHELL PARK",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MODBURY",
+          "stores": [
+            {
+              "id": "REP-SA-MODBURY",
+              "name": "REPCO MODBURY",
+              "brand": "REPCO",
+              "suburb": "MODBURY",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MOUNT GAMBIER",
+          "stores": [
+            {
+              "id": "REP-SA-MOUNT_GAMBIER",
+              "name": "REPCO MOUNT GAMBIER",
+              "brand": "REPCO",
+              "suburb": "MOUNT GAMBIER",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MURRAY BRIDGE",
+          "stores": [
+            {
+              "id": "REP-SA-MURRAY_BRIDGE",
+              "name": "REPCO MURRAY BRIDGE",
+              "brand": "REPCO",
+              "suburb": "MURRAY BRIDGE",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NARACOORTE",
+          "stores": [
+            {
+              "id": "REP-SA-NARACOORTE",
+              "name": "REPCO NARACOORTE",
+              "brand": "REPCO",
+              "suburb": "NARACOORTE",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NOARLUNGA",
+          "stores": [
+            {
+              "id": "REP-SA-NOARLUNGA",
+              "name": "REPCO NOARLUNGA",
+              "brand": "REPCO",
+              "suburb": "NOARLUNGA",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PARAFIELD",
+          "stores": [
+            {
+              "id": "REP-SA-PARAFIELD",
+              "name": "REPCO PARAFIELD",
+              "brand": "REPCO",
+              "suburb": "PARAFIELD",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORT ADELAIDE",
+          "stores": [
+            {
+              "id": "REP-SA-PORT_ADELAIDE",
+              "name": "REPCO PORT ADELAIDE",
+              "brand": "REPCO",
+              "suburb": "PORT ADELAIDE",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORT LINCOLN",
+          "stores": [
+            {
+              "id": "REP-SA-PORT_LINCOLN",
+              "name": "REPCO PORT LINCOLN",
+              "brand": "REPCO",
+              "suburb": "PORT LINCOLN",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORT PIRIE",
+          "stores": [
+            {
+              "id": "REP-SA-PORT_PIRIE",
+              "name": "REPCO PORT PIRIE",
+              "brand": "REPCO",
+              "suburb": "PORT PIRIE",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "SMITHFIELD PLAINS",
+          "stores": [
+            {
+              "id": "REP-SA-SMITHFIELD_PLAINS",
+              "name": "REPCO MUNNO PARA",
+              "brand": "REPCO",
+              "suburb": "SMITHFIELD PLAINS",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "TOTNESS",
+          "stores": [
+            {
+              "id": "REP-SA-TOTNESS",
+              "name": "REPCO MOUNT BARKER",
+              "brand": "REPCO",
+              "suburb": "TOTNESS",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "VICTOR HARBOR",
+          "stores": [
+            {
+              "id": "REP-SA-VICTOR_HARBOR",
+              "name": "REPCO VICTOR HARBOR",
+              "brand": "REPCO",
+              "suburb": "VICTOR HARBOR",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WHYALLA",
+          "stores": [
+            {
+              "id": "REP-SA-WHYALLA",
+              "name": "REPCO WHYALLA",
+              "brand": "REPCO",
+              "suburb": "WHYALLA",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WOODVILLE",
+          "stores": [
+            {
+              "id": "NAP-SA-WOODVILLE",
+              "name": "NAPA WOODVILLE",
+              "brand": "NAPA",
+              "suburb": "WOODVILLE",
+              "state": "SA",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Western Australia",
+      "code": "WA",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "ALBANY",
+          "stores": [
+            {
+              "id": "REP-WA-ALBANY",
+              "name": "REPCO ALBANY",
+              "brand": "REPCO",
+              "suburb": "ALBANY",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-ALBANY",
+              "name": "NAPA ALBANY",
+              "brand": "NAPA",
+              "suburb": "ALBANY",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "AUSTRALIND",
+          "stores": [
+            {
+              "id": "REP-WA-AUSTRALIND",
+              "name": "REPCO TREENDALE",
+              "brand": "REPCO",
+              "suburb": "AUSTRALIND",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BALCATTA",
+          "stores": [
+            {
+              "id": "REP-WA-BALCATTA",
+              "name": "REPCO BALCATTA",
+              "brand": "REPCO",
+              "suburb": "BALCATTA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BALDIVIS",
+          "stores": [
+            {
+              "id": "REP-WA-BALDIVIS",
+              "name": "REPCO BALDIVIS",
+              "brand": "REPCO",
+              "suburb": "BALDIVIS",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BANKSIA GROVE",
+          "stores": [
+            {
+              "id": "REP-WA-BANKSIA_GROVE",
+              "name": "REPCO BANKSIA GROVE",
+              "brand": "REPCO",
+              "suburb": "BANKSIA GROVE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BELMONT",
+          "stores": [
+            {
+              "id": "REP-WA-BELMONT",
+              "name": "REPCO BELMONT",
+              "brand": "REPCO",
+              "suburb": "BELMONT",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BIBRA LAKE",
+          "stores": [
+            {
+              "id": "REP-WA-BIBRA_LAKE",
+              "name": "REPCO BIBRA LAKE",
+              "brand": "REPCO",
+              "suburb": "BIBRA LAKE",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-BIBRA_LAKE",
+              "name": "NAPA BIBRA LAKE",
+              "brand": "NAPA",
+              "suburb": "BIBRA LAKE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BROOME",
+          "stores": [
+            {
+              "id": "REP-WA-BROOME",
+              "name": "REPCO BROOME",
+              "brand": "REPCO",
+              "suburb": "BROOME",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BUNBURY",
+          "stores": [
+            {
+              "id": "REP-WA-BUNBURY",
+              "name": "REPCO BUNBURY",
+              "brand": "REPCO",
+              "suburb": "BUNBURY",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-BUNBURY",
+              "name": "NAPA BUNBURY",
+              "brand": "NAPA",
+              "suburb": "BUNBURY",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BUSSELTON",
+          "stores": [
+            {
+              "id": "REP-WA-BUSSELTON",
+              "name": "REPCO BUSSELTON",
+              "brand": "REPCO",
+              "suburb": "BUSSELTON",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BUTLER",
+          "stores": [
+            {
+              "id": "REP-WA-BUTLER",
+              "name": "REPCO BUTLER",
+              "brand": "REPCO",
+              "suburb": "BUTLER",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "BYFORD",
+          "stores": [
+            {
+              "id": "REP-WA-BYFORD",
+              "name": "REPCO BYFORD",
+              "brand": "REPCO",
+              "suburb": "BYFORD",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CANNING VALE",
+          "stores": [
+            {
+              "id": "REP-WA-CANNING_VALE",
+              "name": "REPCO CANNING VALE",
+              "brand": "REPCO",
+              "suburb": "CANNING VALE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CANNINGTON",
+          "stores": [
+            {
+              "id": "REP-WA-CANNINGTON",
+              "name": "REPCO CANNINGTON",
+              "brand": "REPCO",
+              "suburb": "CANNINGTON",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CARNARVON",
+          "stores": [
+            {
+              "id": "REP-WA-CARNARVON",
+              "name": "REPCO CARNARVON",
+              "brand": "REPCO",
+              "suburb": "CARNARVON",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CLARKSON",
+          "stores": [
+            {
+              "id": "REP-WA-CLARKSON",
+              "name": "REPCO CLARKSON",
+              "brand": "REPCO",
+              "suburb": "CLARKSON",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "COCKBURN CENTRAL",
+          "stores": [
+            {
+              "id": "REP-WA-COCKBURN_CENTRAL",
+              "name": "REPCO COCKBURN",
+              "brand": "REPCO",
+              "suburb": "COCKBURN CENTRAL",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DONNYBROOK",
+          "stores": [
+            {
+              "id": "REP-WA-DONNYBROOK",
+              "name": "REPCO DONNYBROOK",
+              "brand": "REPCO",
+              "suburb": "DONNYBROOK",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DRIVETECH WA",
+          "stores": [
+            {
+              "id": "MSP-WA-DRIVETECH_WA",
+              "name": "MSP DRIVETECH WA",
+              "brand": "MSP",
+              "suburb": "DRIVETECH WA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ELLENBROOK",
+          "stores": [
+            {
+              "id": "REP-WA-ELLENBROOK",
+              "name": "REPCO ELLENBROOK",
+              "brand": "REPCO",
+              "suburb": "ELLENBROOK",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ESPERANCE",
+          "stores": [
+            {
+              "id": "REP-WA-ESPERANCE",
+              "name": "REPCO ESPERANCE",
+              "brand": "REPCO",
+              "suburb": "ESPERANCE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "FORRESTDALE",
+          "stores": [
+            {
+              "id": "REP-WA-FORRESTDALE",
+              "name": "REPCO FORRESTDALE",
+              "brand": "REPCO",
+              "suburb": "FORRESTDALE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "GERALDTON",
+          "stores": [
+            {
+              "id": "REP-WA-GERALDTON",
+              "name": "REPCO GERALDTON",
+              "brand": "REPCO",
+              "suburb": "GERALDTON",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-GERALDTON",
+              "name": "NAPA GERALDTON",
+              "brand": "NAPA",
+              "suburb": "GERALDTON",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HALLS HEAD",
+          "stores": [
+            {
+              "id": "REP-WA-HALLS_HEAD",
+              "name": "REPCO HALLS HEAD",
+              "brand": "REPCO",
+              "suburb": "HALLS HEAD",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "JOONDALUP",
+          "stores": [
+            {
+              "id": "REP-WA-JOONDALUP",
+              "name": "REPCO JOONDALUP",
+              "brand": "REPCO",
+              "suburb": "JOONDALUP",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-JOONDALUP",
+              "name": "NAPA JOONDALUP",
+              "brand": "NAPA",
+              "suburb": "JOONDALUP",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KALGOORLIE",
+          "stores": [
+            {
+              "id": "REP-WA-KALGOORLIE",
+              "name": "REPCO KALGOORLIE",
+              "brand": "REPCO",
+              "suburb": "KALGOORLIE",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-KALGOORLIE",
+              "name": "NAPA KALGOORLIE",
+              "brand": "NAPA",
+              "suburb": "KALGOORLIE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KARRATHA",
+          "stores": [
+            {
+              "id": "REP-WA-KARRATHA",
+              "name": "REPCO KARRATHA",
+              "brand": "REPCO",
+              "suburb": "KARRATHA",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-KARRATHA",
+              "name": "NAPA KARRATHA",
+              "brand": "NAPA",
+              "suburb": "KARRATHA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KELMSCOTT",
+          "stores": [
+            {
+              "id": "REP-WA-KELMSCOTT",
+              "name": "REPCO KELMSCOTT",
+              "brand": "REPCO",
+              "suburb": "KELMSCOTT",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-KELMSCOTT",
+              "name": "NAPA KELMSCOTT",
+              "brand": "NAPA",
+              "suburb": "KELMSCOTT",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KEWDALE",
+          "stores": [
+            {
+              "id": "NAP-WA-KEWDALE",
+              "name": "NAPA KEWDALE",
+              "brand": "NAPA",
+              "suburb": "KEWDALE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KWINANA",
+          "stores": [
+            {
+              "id": "REP-WA-KWINANA",
+              "name": "REPCO KWINANA",
+              "brand": "REPCO",
+              "suburb": "KWINANA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MALAGA",
+          "stores": [
+            {
+              "id": "REP-WA-MALAGA",
+              "name": "REPCO MALAGA",
+              "brand": "REPCO",
+              "suburb": "MALAGA",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-MALAGA",
+              "name": "NAPA MALAGA",
+              "brand": "NAPA",
+              "suburb": "MALAGA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MANDURAH",
+          "stores": [
+            {
+              "id": "REP-WA-MANDURAH",
+              "name": "REPCO MANDURAH",
+              "brand": "REPCO",
+              "suburb": "MANDURAH",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-MANDURAH",
+              "name": "NAPA MANDURAH",
+              "brand": "NAPA",
+              "suburb": "MANDURAH",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MARGARET RIVER",
+          "stores": [
+            {
+              "id": "REP-WA-MARGARET_RIVER",
+              "name": "REPCO MARGARET RIVER",
+              "brand": "REPCO",
+              "suburb": "MARGARET RIVER",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MIDLAND",
+          "stores": [
+            {
+              "id": "REP-WA-MIDLAND",
+              "name": "REPCO MIDLAND",
+              "brand": "REPCO",
+              "suburb": "MIDLAND",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-MIDLAND",
+              "name": "NAPA MIDLAND",
+              "brand": "NAPA",
+              "suburb": "MIDLAND",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MORLEY",
+          "stores": [
+            {
+              "id": "REP-WA-MORLEY",
+              "name": "REPCO MORLEY",
+              "brand": "REPCO",
+              "suburb": "MORLEY",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MYAREE",
+          "stores": [
+            {
+              "id": "REP-WA-MYAREE",
+              "name": "REPCO MYAREE",
+              "brand": "REPCO",
+              "suburb": "MYAREE",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NARROGIN",
+          "stores": [
+            {
+              "id": "REP-WA-NARROGIN",
+              "name": "REPCO NARROGIN",
+              "brand": "REPCO",
+              "suburb": "NARROGIN",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "NORTHAM",
+          "stores": [
+            {
+              "id": "REP-WA-NORTHAM",
+              "name": "REPCO NORTHAM",
+              "brand": "REPCO",
+              "suburb": "NORTHAM",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "OSBORNE PARK",
+          "stores": [
+            {
+              "id": "REP-WA-OSBORNE_PARK",
+              "name": "REPCO OSBORNE PARK",
+              "brand": "REPCO",
+              "suburb": "OSBORNE PARK",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-OSBORNE_PARK",
+              "name": "NAPA OSBORNE PARK",
+              "brand": "NAPA",
+              "suburb": "OSBORNE PARK",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "PORT HEDLAND",
+          "stores": [
+            {
+              "id": "REP-WA-PORT_HEDLAND",
+              "name": "REPCO PORT HEDLAND",
+              "brand": "REPCO",
+              "suburb": "PORT HEDLAND",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ROCKINGHAM",
+          "stores": [
+            {
+              "id": "REP-WA-ROCKINGHAM",
+              "name": "REPCO ROCKINGHAM",
+              "brand": "REPCO",
+              "suburb": "ROCKINGHAM",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-ROCKINGHAM",
+              "name": "NAPA ROCKINGHAM",
+              "brand": "NAPA",
+              "suburb": "ROCKINGHAM",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "VICTORIA PARK",
+          "stores": [
+            {
+              "id": "REP-WA-VICTORIA_PARK",
+              "name": "REPCO VICTORIA PARK",
+              "brand": "REPCO",
+              "suburb": "VICTORIA PARK",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WANGARA",
+          "stores": [
+            {
+              "id": "REP-WA-WANGARA",
+              "name": "REPCO WANGARA",
+              "brand": "REPCO",
+              "suburb": "WANGARA",
+              "state": "WA",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-WA-WANGARA",
+              "name": "NAPA WANGARA",
+              "brand": "NAPA",
+              "suburb": "WANGARA",
+              "state": "WA",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Tasmania",
+      "code": "TAS",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "BURNIE",
+          "stores": [
+            {
+              "id": "REP-TAS-BURNIE",
+              "name": "REPCO BURNIE",
+              "brand": "REPCO",
+              "suburb": "BURNIE",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DERWENT PARK",
+          "stores": [
+            {
+              "id": "REP-TAS-DERWENT_PARK",
+              "name": "REPCO DERWENT PARK",
+              "brand": "REPCO",
+              "suburb": "DERWENT PARK",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DEVONPORT",
+          "stores": [
+            {
+              "id": "REP-TAS-DEVONPORT",
+              "name": "REPCO DEVONPORT",
+              "brand": "REPCO",
+              "suburb": "DEVONPORT",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "HOBART",
+          "stores": [
+            {
+              "id": "REP-TAS-HOBART",
+              "name": "REPCO HOBART",
+              "brand": "REPCO",
+              "suburb": "HOBART",
+              "state": "TAS",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-TAS-HOBART",
+              "name": "NAPA HOBART",
+              "brand": "NAPA",
+              "suburb": "HOBART",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KINGSTON",
+          "stores": [
+            {
+              "id": "REP-TAS-KINGSTON",
+              "name": "REPCO KINGSTON",
+              "brand": "REPCO",
+              "suburb": "KINGSTON",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "LAUNCESTON",
+          "stores": [
+            {
+              "id": "REP-TAS-LAUNCESTON",
+              "name": "REPCO LAUNCESTON",
+              "brand": "REPCO",
+              "suburb": "LAUNCESTON",
+              "state": "TAS",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-TAS-LAUNCESTON",
+              "name": "NAPA LAUNCESTON",
+              "brand": "NAPA",
+              "suburb": "LAUNCESTON",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "MORNINGTON",
+          "stores": [
+            {
+              "id": "REP-TAS-MORNINGTON",
+              "name": "REPCO MORNINGTON TAS",
+              "brand": "REPCO",
+              "suburb": "MORNINGTON",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "ULVERSTONE",
+          "stores": [
+            {
+              "id": "REP-TAS-ULVERSTONE",
+              "name": "REPCO ULVERSTONE",
+              "brand": "REPCO",
+              "suburb": "ULVERSTONE",
+              "state": "TAS",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Northern Territory",
+      "code": "NT",
+      "country": "AU",
+      "suburbs": [
+        {
+          "suburb": "ALICE SPRINGS",
+          "stores": [
+            {
+              "id": "REP-NT-ALICE_SPRINGS",
+              "name": "REPCO ALICE SPRINGS",
+              "brand": "REPCO",
+              "suburb": "ALICE SPRINGS",
+              "state": "NT",
+              "country": "AU"
+            },
+            {
+              "id": "NAP-NT-ALICE_SPRINGS",
+              "name": "NAPA ALICE SPRINGS",
+              "brand": "NAPA",
+              "suburb": "ALICE SPRINGS",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "CASUARINA",
+          "stores": [
+            {
+              "id": "REP-NT-CASUARINA",
+              "name": "REPCO CASUARINA",
+              "brand": "REPCO",
+              "suburb": "CASUARINA",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "DARWIN",
+          "stores": [
+            {
+              "id": "NAP-NT-DARWIN",
+              "name": "NAPA DARWIN",
+              "brand": "NAPA",
+              "suburb": "DARWIN",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "KATHERINE",
+          "stores": [
+            {
+              "id": "REP-NT-KATHERINE",
+              "name": "REPCO KATHERINE",
+              "brand": "REPCO",
+              "suburb": "KATHERINE",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "WINNELLIE",
+          "stores": [
+            {
+              "id": "REP-NT-WINNELLIE",
+              "name": "REPCO WINNELLIE",
+              "brand": "REPCO",
+              "suburb": "WINNELLIE",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        },
+        {
+          "suburb": "YARRAWONGA",
+          "stores": [
+            {
+              "id": "REP-NT-YARRAWONGA",
+              "name": "REPCO PALMERSTON",
+              "brand": "REPCO",
+              "suburb": "YARRAWONGA",
+              "state": "NT",
+              "country": "AU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "North Island (NZ)",
+      "code": "NI",
+      "country": "NZ",
+      "suburbs": [
+        {
+          "suburb": "AUCKLAND CBD",
+          "stores": [
+            {
+              "id": "REP-NI-AUCKLAND_CBD",
+              "name": "REPCO AUCKLAND CBD",
+              "brand": "REPCO",
+              "suburb": "AUCKLAND CBD",
+              "state": "NI",
+              "country": "NZ"
+            },
+            {
+              "id": "NAP-NI-AUCKLAND_CBD",
+              "name": "NAPA AUCKLAND",
+              "brand": "NAPA",
+              "suburb": "AUCKLAND CBD",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "HAMILTON",
+          "stores": [
+            {
+              "id": "REP-NI-HAMILTON",
+              "name": "REPCO HAMILTON",
+              "brand": "REPCO",
+              "suburb": "HAMILTON",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "MANUKAU",
+          "stores": [
+            {
+              "id": "REP-NI-MANUKAU",
+              "name": "REPCO MANUKAU",
+              "brand": "REPCO",
+              "suburb": "MANUKAU",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "PALMERSTON NORTH",
+          "stores": [
+            {
+              "id": "REP-NI-PALMERSTON_NORTH",
+              "name": "REPCO PALMERSTON NORTH",
+              "brand": "REPCO",
+              "suburb": "PALMERSTON NORTH",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "TAURANGA",
+          "stores": [
+            {
+              "id": "REP-NI-TAURANGA",
+              "name": "REPCO TAURANGA",
+              "brand": "REPCO",
+              "suburb": "TAURANGA",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "WELLINGTON",
+          "stores": [
+            {
+              "id": "REP-NI-WELLINGTON",
+              "name": "REPCO WELLINGTON",
+              "brand": "REPCO",
+              "suburb": "WELLINGTON",
+              "state": "NI",
+              "country": "NZ"
+            },
+            {
+              "id": "NAP-NI-WELLINGTON",
+              "name": "NAPA WELLINGTON",
+              "brand": "NAPA",
+              "suburb": "WELLINGTON",
+              "state": "NI",
+              "country": "NZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "South Island (NZ)",
+      "code": "SI",
+      "country": "NZ",
+      "suburbs": [
+        {
+          "suburb": "CHRISTCHURCH",
+          "stores": [
+            {
+              "id": "REP-SI-CHRISTCHURCH",
+              "name": "REPCO CHRISTCHURCH",
+              "brand": "REPCO",
+              "suburb": "CHRISTCHURCH",
+              "state": "SI",
+              "country": "NZ"
+            },
+            {
+              "id": "NAP-SI-CHRISTCHURCH",
+              "name": "NAPA CHRISTCHURCH",
+              "brand": "NAPA",
+              "suburb": "CHRISTCHURCH",
+              "state": "SI",
+              "country": "NZ"
+            }
+          ]
+        },
+        {
+          "suburb": "DUNEDIN",
+          "stores": [
+            {
+              "id": "REP-SI-DUNEDIN",
+              "name": "REPCO DUNEDIN",
+              "brand": "REPCO",
+              "suburb": "DUNEDIN",
+              "state": "SI",
+              "country": "NZ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "direct": []
+}

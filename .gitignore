@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+.data/
+campaign-reset-pin.txt
+kiosk-number.txt
+hub-address.txt
+public/hub-socket-url.txt
+node_modules/
+.next/
